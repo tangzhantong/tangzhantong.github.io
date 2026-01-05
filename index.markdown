@@ -5,7 +5,7 @@
 layout: home
 ---
 ---
-layout: home
+layout: default
 ---
 
 <div style="margin-bottom: 40px; text-align: center;">
