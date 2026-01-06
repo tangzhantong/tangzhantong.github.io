@@ -21,11 +21,10 @@
 title: Tang Lab
 email: zhantongtang@gmail.com
 description: >- 
-  专注于基础生物学、生物信息学及机器学习研究
+  专注于发现基础生物学现象，并结合生物信息学、机器学习进行分析
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  Newko0213.github.io
 
 # Build settings
 theme: minima
