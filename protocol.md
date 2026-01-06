@@ -56,11 +56,14 @@ permalink: /protocol/
 <details>
 <summary>🧫 细胞实验 (Cell Experiments)</summary>
   <div style="margin-top: 10px;">
-    <a href="/assets/files/cell_culture_sop.pdf" class="pdf-link" download>
-      <span class="icon">📄</span> 细胞复苏与传代标准流程.pdf (示例)
+    <a href="/assets/protocol/cell_culture.pdf" class="pdf-link" download>
+      <span class="icon">📄</span> 细胞复苏、传代及冻存标准流程.pdf 
     </a>
-    <a href="#" class="pdf-link">
-      <span class="icon">📄</span> 细胞划痕与迁移实验.pdf (待上传)
+    <a href="/assets/protocol/cell_phenotype.pdf" class="pdf-link">
+      <span class="icon">📄</span> 细胞表型实验.pdf 
+    </a>
+    <a href="/assets/protocol/ROS.pdf" class="pdf-link">
+      <span class="icon">📄</span> 脂质过氧化检测.pdf 
     </a>
   </div>
 </details>
@@ -68,14 +71,14 @@ permalink: /protocol/
 <details>
 <summary>🧬 分子实验 (Molecular Experiments)</summary>
   <div style="margin-top: 10px;">
-    <a href="#" class="pdf-link">
-      <span class="icon">📄</span> Western Blot 详细步骤.pdf (待上传)
+    <a href="/assets/protocol/western_blot.pdf" class="pdf-link">
+      <span class="icon">📄</span> Western Blot 详细步骤.pdf 
     </a>
-    <a href="#" class="pdf-link">
-      <span class="icon">📄</span> RNA 提取与逆转录 (RT-qPCR).pdf (待上传)
+    <a href="/assets/protocol/extractRNA_re_qPCR.pdf" class="pdf-link">
+      <span class="icon">📄</span> RNA 提取与逆转录 (RT-qPCR).pdf 
     </a>
-    <a href="#" class="pdf-link">
-      <span class="icon">📄</span> 质粒抽提与转化.pdf (待上传)
+    <a href="/assets/protocol/extract_plasmid.pdf" class="pdf-link">
+      <span class="icon">📄</span> 质粒抽提与转化.pdf 
     </a>
   </div>
 </details>
@@ -83,11 +86,8 @@ permalink: /protocol/
 <details>
 <summary>🐁 动物实验 (Animal Experiments)</summary>
   <div style="margin-top: 10px;">
-    <a href="#" class="pdf-link">
-      <span class="icon">📄</span> 裸鼠皮下成瘤模型构建.pdf (待上传)
-    </a>
-    <a href="#" class="pdf-link">
-      <span class="icon">📄</span> 尾静脉注射给药流程.pdf (待上传)
+    <a href="/assets/protocol/animal_tumor.pdf" class="pdf-link">
+      <span class="icon">📄</span> c57皮下成瘤模型构建.pdf 
     </a>
   </div>
 </details>
