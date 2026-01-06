@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Tang Zhantong's web
+title: Tang Lab
 email: zhantongtang@gmail.com
 description: >- 
   专注于基础生物学、生物信息学及机器学习研究
@@ -36,6 +36,7 @@ header_pages:
   - research.md
   - members.md
   - protocol.md
+  - code.md
   - address.md
 
 # Exclude from processing.

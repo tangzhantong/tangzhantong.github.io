@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "👥 成员介绍"
+title: "👥 Team"
 permalink: /members/
 ---
 
