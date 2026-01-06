@@ -1,0 +1,166 @@
+---
+# Only the main Sass file needs front matter (the dashes are important)
+---
+@charset "utf-8";
+
+@import "minima";
+
+/* =========================================
+   Tang Lab 全局样式控制中心 (Global Styles)
+   ========================================= */
+
+/* 1. 核心命令：强制加宽所有页面 */
+.wrapper {
+  max-width: 95% !important; /* 让内容占据屏幕 95% 的宽度 */
+  padding-left: 15px !important; /* 左右留一点点呼吸空间 */
+  padding-right: 15px !important;
+}
+
+/* 2. 针对 Research 等页面的图片优化 */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px; /* 图片圆角，增加精致感 */
+}
+
+/* 3. 去掉页眉页脚多余的边框（让页面更干净） */
+.site-header, .site-footer {
+  border-top: none;
+}
+
+/* =========================================
+   Tang Lab 动效库 (Animation Library)
+   ========================================= */
+
+/* 1. 卡片悬浮效果 (用于底部的三栏) */
+.hover-card {
+  transition: all 0.3s ease; /* 0.3秒的平滑过渡 */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* 默认有一点点阴影，增加质感 */
+}
+
+.hover-card:hover {
+  transform: translateY(-8px); /* 向上浮动 8像素 */
+  box-shadow: 0 12px 20px rgba(0,0,0,0.15); /* 阴影加深，制造立体感 */
+}
+
+/* 2. 滚动渐入效果 (初始隐藏状态) */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px); /* 初始位置在下方 30px */
+  transition: all 0.8s ease-out; /* 0.8秒缓慢浮出 */
+}
+
+/* 3. 滚动渐入效果 (激活显示状态) */
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0); /* 回到原位 */
+}
+/* =========================================
+   Tang Lab 背景动效：微观世界 (Micro-World)
+   ========================================= */
+
+/* 背景容器：固定在屏幕最底层，不挡住任何内容 */
+.lab-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* 关键：置于最底层 */
+  overflow: hidden;
+  pointer-events: none; /* 关键：让鼠标点击穿透它，不影响点击按钮 */
+}
+
+/* 分子/细胞通用的样式 */
+.molecule {
+  position: absolute;
+  border-radius: 50%; /* 圆形 */
+  opacity: 0.15; /* 非常透明，若隐若现 */
+  filter: blur(8px); /* 边缘模糊，像显微镜失焦的感觉 */
+  animation: floatUp 25s infinite linear; /* 25秒的超慢浮动 */
+}
+
+/* 定义几种不同大小和颜色的分子 */
+.m-1 {
+  width: 80px;
+  height: 80px;
+  background: #4a90e2; /* 实验室蓝 */
+  left: 10%;
+  bottom: -100px;
+  animation-duration: 35s; /* 速度不同，制造层次感 */
+  animation-delay: 0s;
+}
+
+.m-2 {
+  width: 150px;
+  height: 150px;
+  background: #50e3c2; /* 青绿色 */
+  left: 25%;
+  bottom: -150px;
+  animation-duration: 45s;
+  animation-delay: 5s;
+}
+
+.m-3 {
+  width: 40px;
+  height: 40px;
+  background: #e24a4a; /* 红色点缀 */
+  left: 70%;
+  bottom: -50px;
+  animation-duration: 20s;
+  animation-delay: 2s;
+}
+
+.m-4 {
+  width: 100px;
+  height: 100px;
+  background: #4a90e2;
+  left: 85%;
+  bottom: -120px;
+  animation-duration: 40s;
+  animation-delay: 8s;
+}
+
+.m-5 {
+  width: 60px;
+  height: 60px;
+  background: #50e3c2;
+  left: 50%;
+  bottom: -80px;
+  animation-duration: 30s;
+  animation-delay: 15s;
+}
+
+/* =========================================
+   Tang Lab 全局背景纹理 (Universal Wallpaper)
+   ========================================= */
+
+body::before {
+  content: "";
+  position: fixed; /* 固定定位：滚动页面时背景不动，很有高级感 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* --- 在这里设置你的图片 --- */
+  background-image: url('/assets/images/bg-pattern.jpg');
+
+  /* 如果你暂时没有图片，可以用下面这行代码生成一个“简易培养皿”效果作为测试（去掉注释即可使用）： */
+  /* background-image: radial-gradient(#e0e0e0 2px, transparent 2px), radial-gradient(#e0e0e0 2px, transparent 2px); background-position: 0 0, 25px 25px; background-size: 50px 50px; */
+
+  background-repeat: repeat; /* 平铺模式 */
+  background-size: 300px;    /* 控制图案的大小，数字越小图案越密 */
+
+  opacity: 0.08; /* 透明度：关键！0.05-0.1 之间最好，营造“水印”效果，不要抢了正文的风头 */
+  z-index: -1;   /* 置于最底层 */
+  pointer-events: none; /* 让鼠标穿透，不影响点击 */
+
+  /* 融合模式：让背景更自然地融入白色底色 */
+  mix-blend-mode: multiply;
+}
+
+/* 确保页面主体背景是透明的，这样才能透出后面的纹理 */
+.page-content, .wrapper {
+  background: transparent !important;
+}
