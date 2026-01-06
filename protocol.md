@@ -100,3 +100,143 @@ permalink: /protocol/
     </a>
   </div>
 </details>
+
+<details>
+  <summary>💻 常用的生物学网站</summary>
+  
+  <div style="margin-top: 10px; padding-left: 5px;">
+    
+    <div style="margin-bottom: 8px;">
+      <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🌐</span> NCBI (综合数据库)
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🌐</span> PubMed (文献检索)
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://www.addgene.org/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🧬</span> Addgene (质粒库)
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://genome.ucsc.edu/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🧬</span> UCSC Genome Browser
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://portal.gdc.cancer.gov/" target="_blank" style="text-decoration: none;">
+        <span class="icon">📊</span> GDC Data Portal (TCGA)
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://www.ncbi.nlm.nih.gov/geo/" target="_blank" style="text-decoration: none;">
+        <span class="icon">📊</span> GEO
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="http://gepia2.cancer-pku.cn/" target="_blank" style="text-decoration: none;">
+        <span class="icon">📈</span> GEPIA2 (表达与生存)
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://string-db.org/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🕸️</span> STRING (蛋白互作)
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://metascape.org/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> Metascape (富集分析)
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://jaspar.elixir.no/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> JASPAR (转录因子结合motif分析及启动子scan)
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://www.origene.com/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> qPCR引物一键查找
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://www.cellbank.org.cn/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> 中科院cellbank
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://bio-protocol.org/cn" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> bio-protocol
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://www.nature.com/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> Nature
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://www.cell.com/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> Cell
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://www.science.org/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> Science
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://bioart.niaid.nih.gov/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> Bioart(用于生物绘图的素材)
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://app.biorender.com/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> Bio-render
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://app.biorender.com/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> Bio-render
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://www.cancerrxgene.org/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> GDSC耐药数据库
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://parasite.wormbase.org/index.html" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> 寄生虫数据库
+      </a>
+    </div>
+
+    <div style="margin-bottom: 8px;">
+      <a href="https://services.healthtech.dtu.dk/services/NetPhos-3.1/" target="_blank" style="text-decoration: none;">
+        <span class="icon">🔍</span> 预测磷酸化位点
+      </a>
+    </div>
+
+    </div>
+</details>
