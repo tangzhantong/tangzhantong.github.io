@@ -41,7 +41,7 @@ permalink: /research/
 
 
 <div>
-  <img src="/assets/images/research_banner1.jpg" alt="Research Banner" class="research-banner-img">
+  <img src="/assets/images/bg-pattern.jpg" alt="Research Banner" class="research-banner-img">
 </div>
 
 
