@@ -81,6 +81,36 @@ permalink: /gallery/
   </div>
 
   <div class="gallery-card">
+    <img src="/assets/images/dabao_sleep.jpg" class="gallery-img" alt="Conference">
+    <div class="gallery-info">
+      <h3 class="gallery-title">Sleep😴</h3>
+      <p class="gallery-desc">
+        2025年8月，大宝：别放我发现了！。
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/dabao_home.jpg" class="gallery-img" alt="Conference">
+    <div class="gallery-info">
+      <h3 class="gallery-title">新的家👋</h3>
+      <p class="gallery-desc">
+        2025年1月，大宝刚到家，对一切的充满好奇。
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/dabao_go_gome.jpg" class="gallery-img" alt="Conference">
+    <div class="gallery-info">
+      <h3 class="gallery-title">回家～</h3>
+      <p class="gallery-desc">
+        2025年1月，由于我工作变动，不能陪伴大宝。我父母建议寄回家，于是在回家途中我拍下一张，心疼🥹。
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/banner2.jpg" class="gallery-img" alt="Team Building">
     <div class="gallery-info">
       <h3 class="gallery-title">玄武湖游玩</h3>
