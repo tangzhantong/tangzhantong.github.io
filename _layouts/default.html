@@ -5,10 +5,32 @@
 
   <body {% if page.url == "/" %}style="overflow: hidden;"{% endif %}>
 
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    <div class="footer-cats-container">
+        <svg class="footer-cat-svg" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 40 Q 25 20, 45 25 Q 65 30, 80 40 L 90 40 Q 95 35, 90 30 Q 85 25, 80 30 M 85 32 Q 87 34, 89 32 M 85 35 Q 87 37, 89 35 M 15 40 L 15 45 M 35 40 L 35 45 M 65 40 L 65 45 M 85 40 L 85 45 M 5 40 L 95 40" />
+        </svg>
+        <svg class="footer-cat-svg" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 40 Q 20 25, 50 25 Q 80 25, 90 40 M 15 35 Q 20 30, 25 35 M 12 40 L 12 42 M 88 40 L 88 42 M 5 40 L 95 40" />
+        </svg>
+        <svg class="footer-cat-svg" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 40 Q 20 40, 30 35 Q 40 15, 60 20 Q 70 25, 80 35 Q 90 40, 95 30 M 92 32 Q 94 34, 96 32 M 92 35 Q 94 37, 96 35 M 15 40 L 15 45 M 35 38 L 35 43 M 65 28 L 65 33 M 85 38 L 85 43 M 5 40 L 40 40" />
+        </svg>
+    </div>
+
+    {%- include footer.html -%}
+
     {% if page.url == "/" %}
     <div id="curtain-overlay">
       <div class="curtain-content">
-        <h1 class="lab-title">Tang Zhantong</h1>
+        <h1 class="lab-title">Tang Lab</h1>
         <p class="lab-subtitle">National Institute of Genetics</p>
 
         <div class="lab-divider"></div>
@@ -46,28 +68,6 @@
       });
     </script>
     {% endif %}
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    <div class="footer-cats-container">
-        <svg class="footer-cat-svg" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 40 Q 25 20, 45 25 Q 65 30, 80 40 L 90 40 Q 95 35, 90 30 Q 85 25, 80 30 M 85 32 Q 87 34, 89 32 M 85 35 Q 87 37, 89 35 M 15 40 L 15 45 M 35 40 L 35 45 M 65 40 L 65 45 M 85 40 L 85 45 M 5 40 L 95 40" />
-        </svg>
-        <svg class="footer-cat-svg" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 40 Q 20 25, 50 25 Q 80 25, 90 40 M 15 35 Q 20 30, 25 35 M 12 40 L 12 42 M 88 40 L 88 42 M 5 40 L 95 40" />
-        </svg>
-        <svg class="footer-cat-svg" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 40 Q 20 40, 30 35 Q 40 15, 60 20 Q 70 25, 80 35 Q 90 40, 95 30 M 92 32 Q 94 34, 96 32 M 92 35 Q 94 37, 96 35 M 15 40 L 15 45 M 35 38 L 35 43 M 65 28 L 65 33 M 85 38 L 85 43 M 5 40 L 40 40" />
-        </svg>
-    </div>
-
-    {%- include footer.html -%}
-
-  </body>
+    </body>
 
 </html>
