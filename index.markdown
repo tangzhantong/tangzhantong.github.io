@@ -123,6 +123,10 @@ function showSlides() {
     <ul style="padding-left: 20px; line-height: 1.8;">
 
       <li>
+        <strong>2026-01-09:</strong> <br>
+        ✈️ 唐展通将于1.19日，1.20日参加日本国立遗传学研究所/SOKENDAI遗传学课程的博士入学考试，祝一起顺利！
+      </li>
+      <li>
         <strong>2026-01-06:</strong> <br>
         ✈️ 唐展通将于1.7日参加遗传与发育生物学系毕业预答辩。
       </li>
