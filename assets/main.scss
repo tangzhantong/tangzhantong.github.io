@@ -305,7 +305,10 @@ input[type="text"], textarea {
 .lab-title {
   font-size: 4rem; font-weight: 800; letter-spacing: 5px; margin-bottom: 10px;
   text-transform: uppercase;
-  background: linear-gradient(to right, #fff, #a0c4ff);
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/banner-biology-picture.jpg');
+
+  background-size: cover;
+  background-position: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
