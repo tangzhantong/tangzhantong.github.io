@@ -194,3 +194,44 @@ body::before {
   background: #f9fffd !important; /* 背景微微变绿 */
   padding-left: 15px !important; /* 只有这一行稍微动一下，产生位移感 */
 }
+
+/* --- 高级简约箭头样式 (纯 CSS) --- */
+
+/* 1. 默认状态：锐利黑箭头 */
+body {
+    /* 语法解释：url('图片路径') icon的坐标中心点, 后备方案;
+       3 3 表示箭头的尖端在图片的 (3px, 3px) 位置，保证点击精准。
+    */
+    cursor: url('/assets/images/cursor-arrow.svg') 3 3, auto;
+}
+
+/* 2. 链接状态：现代感小手 */
+/* 选中所有链接、按钮和提交项 */
+a, button, input[type="submit"], input[type="button"], .pointer-cursor {
+    /* 10 2 表示手型食指指尖的大概位置
+    */
+    cursor: url('/assets/images/cursor-pointer.svg') 10 2, pointer;
+}
+
+/* 可选：针对文本输入区域，可以保留系统默认的竖线，或者也换成高级样式 */
+input[type="text"], textarea {
+    cursor: text;
+}
+
+
+/* --- 猫咪 Logo 样式 --- */
+.cat-header-logo {
+    height: 40px;       /* 调整猫咪的大小，建议在 35px - 50px 之间 */
+    width: auto;        /* 宽度自动，防止变形 */
+    margin-right: 10px; /* 猫咪和 "Tang Lab" 文字之间的距离 */
+    vertical-align: middle; /* 关键！让猫咪和文字在垂直方向居中对齐 */
+    border-radius: 12px; /* 如果你的图片是方形的，这行代码会把它变成圆形 */
+
+    /* 可选：加一点微互动 */
+    transition: transform 0.3s ease;
+}
+
+/* 当鼠标悬停在标题区域时，猫咪歪头（旋转一下） */
+.site-title:hover .cat-header-logo {
+    transform: rotate(15deg);
+}
