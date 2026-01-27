@@ -69,7 +69,7 @@ footer, .site-footer { display: none !important; }
     <div class="member-info">
       <strong>研究方向：</strong>大气科学<br>
       <strong>学校：</strong>中国海洋大学<br>
-      <strong>爱好：</strong>健身、陪伴猫咪
+      <strong>爱好：</strong>健身、陪伴猫咪、烹饪(?)
     </div>
   </div>
 
@@ -77,9 +77,19 @@ footer, .site-footer { display: none !important; }
     <img src="/assets/images/memberdabao.jpg" alt="大宝" class="member-img">
     <h3 class="member-name">大宝</h3>
     <div class="member-info">
-      <strong>职位：</strong>实验室吉祥物 / 监工<br>
+      <strong>职位：</strong>吉祥物<br>
       <strong>出生日期：</strong>2025年5月6日<br>
       <strong>性格：</strong>粘人，肚肚禁摸
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img src="/assets/images/songrong_0126.jpg" alt="松茸" class="member-img">
+    <h3 class="member-name">浩宇</h3>
+    <div class="member-info">
+      <strong>职位：</strong>吉祥物<br>
+      <strong>学校：</strong>中国海洋大学<br>
+      <strong>性格：</strong>粘人(超级！)
     </div>
   </div>
 
