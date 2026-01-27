@@ -146,6 +146,16 @@ footer, .site-footer {
 <div class="gallery-container">
 
   <div class="gallery-card">
+    <img src="/assets/images/songrong_0126.jpg" class="gallery-img" alt="Photo">
+    <div class="gallery-info">
+      <h3 class="gallery-title">回家～</h3>
+      <p class="gallery-desc">
+        2026年1月25日 | 松茸结束了近一个月的寄养生活，祝福。（有点长大了嘿嘿）
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/dabao_new_bed.jpg" class="gallery-img" alt="Photo">
     <div class="gallery-info">
       <h3 class="gallery-title">新卧室 😌</h3>
