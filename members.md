@@ -85,7 +85,7 @@ footer, .site-footer { display: none !important; }
 
   <div class="member-card">
     <img src="/assets/images/songrong_0126.jpg" alt="松茸" class="member-img">
-    <h3 class="member-name">浩宇</h3>
+    <h3 class="member-name">松茸</h3>
     <div class="member-info">
       <strong>职位：</strong>吉祥物<br>
       <strong>学校：</strong>中国海洋大学<br>
