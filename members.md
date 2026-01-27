@@ -59,7 +59,7 @@ footer, .site-footer { display: none !important; }
       <strong>研究方向：</strong>基础生物学<br>
       <strong>学校：</strong>东南大学<br>
       <strong>邮箱：</strong>zhantongtang@gmail.com<br>
-      <strong>爱好：</strong>陪伴猫咪、烹饪
+      <strong>爱好：</strong>陪伴猫咪、烹饪(绝不是工作！)
     </div>
   </div>
 
