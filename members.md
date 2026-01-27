@@ -53,7 +53,7 @@ footer, .site-footer { display: none !important; }
 <div class="member-container">
 
   <div class="member-card">
-    <img src="/assets/images/memberzhantong.jpg" alt="唐展通" class="member-img">
+    <img src="/assets/images/tang_qingdao0126.jpg.jpg" alt="唐展通" class="member-img">
     <h3 class="member-name">唐展通</h3>
     <div class="member-info">
       <strong>研究方向：</strong>基础生物学<br>
