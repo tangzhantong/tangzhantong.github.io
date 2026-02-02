@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Team"
+title: "Members"
 lang: en
 permalink: /en/members/
 ---
@@ -60,7 +60,7 @@ footer, .site-footer { display: none !important; }
 <div class="hero-wrapper">
     <div class="hero-banner">
         <div class="hero-overlay"></div>
-        <h1 class="hero-title">Team</h1>
+        <h1 class="hero-title">Members</h1>
     </div>
 </div>
 
