@@ -117,7 +117,7 @@ footer, .site-footer { display: none !important; }
         <div class="hero-content">
             <h1 class="hero-title">研究内容</h1>
             <div class="hero-subtitle">
-                研究领域：生物物理学、染色质动力学、癌症生物学、胚胎基因组激活
+                研究领域：呼吸系统疾病；体外模拟；器官芯片；免疫学；病毒学
             </div>
         </div>
     </div>
@@ -125,10 +125,10 @@ footer, .site-footer { display: none !important; }
 
 <div class="content-section">
     <div class="project-card">
-        <h2 class="project-title">1. 小鼠胚胎细胞核力学改变与合子基因激活的研究</h2>
+        <h2 class="project-title">1. 器官芯片体外模拟流感免疫应答</h2>
         <div class="project-desc">
             <p>
-                本课题旨在探索早期胚胎发育过程中，细胞核的物理力学特性（如硬度、形变能力）如何伴随合子基因激活（ZGA）发生动态变化。我们利用显微操作技术与活细胞成像...
+                本课题旨在探索在器官芯片中，模拟流感病毒感染后机体的免疫应答
             </p>
             <span class="placeholder-text">(敬请期待...)</span>
         </div>
