@@ -56,7 +56,7 @@ footer, .site-footer { display: none !important; }
     <img src="/assets/images/tang_qingdao0126.jpg" alt="唐展通" class="member-img">
     <h3 class="member-name">唐展通</h3>
     <div class="member-info">
-      <strong>研究方向：</strong>基础生物学<br>
+      <strong>研究方向：</strong>生物学、生物医学工程<br>
       <strong>学校：</strong>东南大学<br>
       <strong>邮箱：</strong>zhantongtang@gmail.com<br>
       <strong>爱好：</strong>陪伴猫咪、烹饪(绝不是工作！)
@@ -78,7 +78,7 @@ footer, .site-footer { display: none !important; }
     <h3 class="member-name">大宝</h3>
     <div class="member-info">
       <strong>职位：</strong>吉祥物<br>
-      <strong>出生日期：</strong>2025年5月6日<br>
+      <strong>出生日期：</strong>2024年5月6日<br>
       <strong>性格：</strong>粘人，肚肚禁摸
     </div>
   </div>
