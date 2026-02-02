@@ -36,7 +36,7 @@ header.site-header {
 .hero-banner {
     width: 100%;
     height: 450px;
-    background-image: url('/assets/images/sunny.jpg'); /* 建议：换一张显微镜或细胞结构图 */
+    background-image: url('/assets/images/research_bg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
