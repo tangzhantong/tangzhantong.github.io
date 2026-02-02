@@ -29,58 +29,61 @@ header.site-header {
     fill: #ffffff !important;
 }
 
-/* --- 2. 沉浸式 Hero Section (全屏大图) --- */
+/* --- 2. 全屏轮播 Hero Section --- */
 
-.hero-wrapper {
+.slider-container {
     position: relative;
-    /* 强制突破父容器限制，实现全屏宽度 */
     width: 100vw;
+    height: 100vh; /* 全屏高度 */
     left: 50%;
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    
-    /* 关键：抵消掉原本 main 区域的内边距，让图片顶到浏览器最上沿 */
-    margin-top: -60px; 
-    padding-top: 0; 
+    margin-top: -60px; /* 抵消顶部间距 */
+    overflow: hidden;
 }
 
-.hero-banner {
-    width: 100%;
-    
-    /* === 修改这里：从 100vh 改为 70vh (屏幕高度的 70%) === */
-    height: 70vh; 
-    min-height: 450px; /* 设置一个最小高度，防止在很扁的屏幕上显示不全内容 */
-    
-    /* 背景图设置 */
-    background-image: url('/assets/images/banner1.jpg'); 
-    background-size: cover;
-    background-position: center;
-    
-    /* 布局 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-/* 遮罩层：稍微加深一点背景，确保白色文字清晰可见 */
-.hero-overlay {
+.slide {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3); /* 30% 的黑色遮罩 */
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out; /* 淡入淡出效果 */
+    z-index: 1;
 }
 
-.hero-content {
-    position: relative;
+.slide.active {
+    opacity: 1;
     z-index: 2;
+}
+
+/* 遮罩层 */
+.slider-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* 30% 黑色遮罩 */
+    z-index: 3;
+    pointer-events: none; /* 让点击穿透 */
+}
+
+/* 标题内容 */
+.slider-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
     text-align: center;
-    color: white;
+    width: 100%;
     padding: 0 20px;
-    margin-top: 30px; /* 稍微调整，保证视觉平衡 */
+    color: white;
 }
 
 .hero-title {
@@ -92,11 +95,33 @@ header.site-header {
     font-family: "Helvetica Neue", sans-serif;
 }
 
+/* 切换按钮 */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.2);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 5;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+.slider-btn:hover {
+    background: rgba(0,0,0,0.5);
+}
+
+.prev-btn { left: 20px; }
+.next-btn { right: 20px; }
+
 /* 移动端适配 */
 @media (max-width: 768px) {
     .hero-title { font-size: 2rem; }
-    .hero-banner { height: 60vh; } /* 手机上可以稍微再小一点，比如 60% */
-    .hero-wrapper { margin-top: -56px; } 
+    .slider-btn { padding: 10px; font-size: 1.5rem; }
 }
 
 /* --- 3. NEWS 区域 (保持原样，优化间距) --- */
@@ -144,14 +169,50 @@ header.site-header {
 }
 </style>
 
-<div class="hero-wrapper">
-    <div class="hero-banner">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 class="hero-title">致力于减少对实验动物的依赖和伤害！</h1>
-        </div>
+<div class="slider-container">
+    <div class="slide active" style="background-image: url('/assets/images/home_bg_1.jpg');"></div>
+    <div class="slide" style="background-image: url('/assets/images/home_bg_2.jpg');"></div>
+    <div class="slide" style="background-image: url('/assets/images/home_bg_3.jpg');"></div>
+    <div class="slide" style="background-image: url('/assets/images/home_bg_4.jpg');"></div>
+    
+    <div class="slider-overlay"></div>
+    
+    <div class="slider-content">
+        <h1 class="hero-title">致力于减少对实验动物的依赖和伤害！</h1>
     </div>
+
+    <button class="slider-btn prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="slider-btn next-btn" onclick="changeSlide(1)">&#10095;</button>
 </div>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    function changeSlide(direction) {
+        // 移除当前 active
+        slides[currentSlide].classList.remove('active');
+        
+        // 计算新索引
+        currentSlide += direction;
+        
+        // 循环逻辑
+        if (currentSlide >= totalSlides) {
+            currentSlide = 0;
+        } else if (currentSlide < 0) {
+            currentSlide = totalSlides - 1;
+        }
+        
+        // 添加新 active
+        slides[currentSlide].classList.add('active');
+    }
+
+    // 自动播放 (每 5 秒切换)
+    setInterval(() => {
+        changeSlide(1);
+    }, 5000);
+</script>
 
 <div class="content-container">
     <h2 class="section-title">NEWS</h2>
