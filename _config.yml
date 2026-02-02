@@ -20,8 +20,7 @@
 
 title: Tang Lab
 email: zhantongtang@gmail.com
-description: >- 
-  　　　　  　　　　  　　　　  　　　　专注于发现基础生物学现象！🫆
+description: "专注于减少对实验动物的伤害"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tangzhantong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  tangzhantong
