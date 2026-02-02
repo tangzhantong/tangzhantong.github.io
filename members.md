@@ -32,7 +32,7 @@ header.site-header {
 .intro-text { text-align: center; margin-bottom: 50px; color: #666; font-style: italic; font-size: 16px; max-width: 800px; margin: 0 auto 50px auto; }
 .member-container { display: flex; flex-wrap: wrap; gap: 50px; justify-content: center; }
 .member-card { text-align: center; width: 240px; }
-.member-img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 4px solid #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.member-img { width: 160px; height: 160px; border-radius: 12px; object-fit: cover; border: 4px solid #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
 .member-name { margin-top: 20px; margin-bottom: 8px; font-size: 1.4rem; color: #333; }
 .member-info { font-size: 14px; color: #555; line-height: 1.7; text-align: left; padding-left: 10px; }
 
