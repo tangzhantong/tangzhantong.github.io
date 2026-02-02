@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 ---
 
 <style>
@@ -90,13 +91,6 @@ header.site-header {
     font-family: "Helvetica Neue", sans-serif;
 }
 
-.hero-subtitle {
-    font-size: 1.2rem;
-    margin-top: 20px;
-    font-weight: 300;
-    opacity: 0.9;
-}
-
 /* 移动端适配 */
 @media (max-width: 768px) {
     .hero-title { font-size: 2rem; }
@@ -156,8 +150,7 @@ header.site-header {
     <div class="video-overlay"></div>
     
     <div class="video-content">
-        <h1 class="hero-title">致力于减少对实验动物的依赖和伤害！</h1>
-        <p class="hero-subtitle">Committed to reducing dependence on and harm to experimental animals!</p>
+        <h1 class="hero-title">Committed to reducing dependence on and harm to experimental animals!</h1>
     </div>
 </div>
 
@@ -167,32 +160,32 @@ header.site-header {
     <ul class="news-list">
         <li class="news-item">
             <span class="news-date">2026-01-09</span>
-            <span class="news-content">唐展通将于1.19日，1.20日参加日本国立遗传学研究所/SOKENDAI遗传学课程的博士入学考试，祝一切顺利！</span>
+            <span class="news-content">Tang Zhantong will attend the PhD entrance exam at the National Institute of Genetics / SOKENDAI, Japan on Jan 19-20. Best of luck!</span>
         </li>
         
         <li class="news-item">
             <span class="news-date">2026-01-06</span>
-            <span class="news-content">唐展通将于1.7日参加遗传与发育生物学系毕业预答辩。</span>
+            <span class="news-content">Tang Zhantong will participate in the pre-defense for graduation from the Department of Genetics and Developmental Biology on Jan 7.</span>
         </li>
         
         <li class="news-item">
             <span class="news-date">2026-01-05</span>
-            <span class="news-content">唐展通将于1.14日前往广东参加广州国家实验室-中山大学联合培养博士面试，祝一切顺利！</span>
+            <span class="news-content">Tang Zhantong will go to Guangdong on Jan 14 for the joint PhD interview of Guangzhou Laboratory and Sun Yat-sen University. Best of luck!</span>
         </li>
 
         <li class="news-item">
             <span class="news-date">2026-01-05</span>
-            <span class="news-content">我的个人网站正式上线了！</span>
+            <span class="news-content">My personal website is officially online!</span>
         </li>
 
         <li class="news-item">
             <span class="news-date">2025-12-31</span>
-            <span class="news-content">展通和浩宇在山东青岛度过了愉快的元旦假期。祝愿新的一年平安健康！</span>
+            <span class="news-content">Zhantong and Haoyu spent a pleasant New Year holiday in Qingdao, Shandong. Wishing everyone peace and health in the coming year!</span>
         </li>
 
         <li class="news-item">
             <span class="news-date">2025-12-27</span>
-            <span class="news-content">唐展通在深圳参加了中山大学博士面试，为期两天。</span>
+            <span class="news-content">Tang Zhantong attended the two-day doctoral interview at Sun Yat-sen University in Shenzhen.</span>
         </li>
     </ul>
 </div>
