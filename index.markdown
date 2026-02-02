@@ -148,7 +148,7 @@ header.site-header {
     <div class="hero-banner">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 class="hero-title">我的研究致力于通过器官芯片模型重建关键生理与病理过程，以减少对实验动物的依赖和伤害</h1>
+            <h1 class="hero-title">致力于减少对实验动物的依赖和伤害！</h1>
         </div>
     </div>
 </div>
