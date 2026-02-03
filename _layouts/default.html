@@ -59,9 +59,7 @@
     /* --- 3. 深色区域自动化 (Hero Banner, Header) --- */
     /* 定义所有深色背景的容器类名 */
     .hero-banner,
-    .hero-wrapper,
-    .site-header,
-    header[role="banner"] {
+    .hero-wrapper {
         color: #ffffff !important;
         /* 强制文字变白 */
         cursor: var(--cursor-light) !important;
@@ -70,8 +68,7 @@
 
     /* 深色区域内的所有子元素文字也变白 */
     .hero-banner *,
-    .hero-wrapper *,
-    .site-header * {
+    .hero-wrapper * {
         color: #ffffff !important;
         fill: #ffffff !important;
         /* SVG图标变白 */
@@ -80,8 +77,7 @@
     }
 
     /* 修复：深色区域内的链接悬停效果 */
-    .hero-banner a:hover,
-    .site-header a:hover {
+    .hero-banner a:hover {
         opacity: 0.8;
         /* 悬停时稍微变透明，体现交互感 */
     }
