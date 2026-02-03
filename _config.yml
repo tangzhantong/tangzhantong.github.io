@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Tang Lab
+title: Tang Zhantong
 email: zhantongtang@gmail.com
 description: "专注于减少对实验动物的伤害"
 baseurl: "" # the subpath of your site, e.g. /blog
