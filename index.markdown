@@ -30,6 +30,10 @@ header.site-header {
     margin-right: -50vw;
     margin-top: -60px; /* 抵消顶部间距 */
     overflow: hidden;
+    background-color: #1a1a2e; /* 深色占位背景 */
+    background-image: url('/assets/video/bg_poster.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 #bg-video {
@@ -130,7 +134,7 @@ header.site-header {
 </style>
 
 <div class="video-container">
-    <video autoplay muted loop playsinline id="bg-video">
+    <video autoplay muted loop playsinline id="bg-video" poster="/assets/video/bg_poster.jpg">
         <source src="/assets/video/bg.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
