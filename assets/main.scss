@@ -1,4 +1,6 @@
---- --- @charset "utf-8";
+---
+---
+@charset "utf-8";
 
 @import "minima";
 
@@ -14,10 +16,11 @@
    Tang Lab 全局样式控制中心 (Global Styles)
    ========================================= */
 
-
-
-
-
+.wrapper {
+  max-width: 95% !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
 
 img {
   max-width: 100%;
@@ -65,6 +68,11 @@ body::before {
   z-index: -1;
   pointer-events: none;
   mix-blend-mode: multiply;
+}
+
+.page-content,
+.wrapper {
+  background: transparent !important;
 }
 
 
