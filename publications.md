@@ -74,8 +74,18 @@ description: "Tang Zhantong's Publications - Papers and Patents."
 
 .pub-venue {
     font-size: 0.9rem;
-    color: #777;
+    color: #666;
     font-style: italic;
+}
+
+.pub-year-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
 }
 
 .me {
@@ -95,25 +105,9 @@ description: "Tang Zhantong's Publications - Papers and Patents."
 
     <h2 class="pub-section-title">Papers</h2>
     
-    <!-- Paper 1: Catalysis Letters -->
-    <div class="pub-item">
-        <div class="pub-cover">
-            <img src="/assets/images/cover_cat_lett.jpg" alt="Catalysis Letters Cover">
-        </div>
-        <div class="pub-info">
-            <div class="pub-title">
-                <a href="https://doi.org/10.1007/s10562-022-04196-9" target="_blank">Design of a Nanoscale Ni Catalyst for Debenzylation Reactions via Hydrogenative C–N Bond Cleavage</a>
-            </div>
-            <div class="pub-authors">
-                Shuang Liu, Wei Zhao, <span class="me"><u>Zhantong Tang</u></span>, Li Zhang, Kailiang Guo, Huishu Wang, Yong Men, Jun Yang, Jun Dai
-            </div>
-            <div class="pub-venue">
-                Catalysis Letters, 2022.
-            </div>
-        </div>
-    </div>
-
-    <!-- Paper 2: JCI -->
+    <h3 class="pub-year-header">2026</h3>
+    
+    <!-- Paper 1: JCI (2026) -->
     <div class="pub-item">
         <div class="pub-cover">
             <img src="/assets/images/cover_jci.jpg" alt="JCI Cover">
@@ -126,12 +120,14 @@ description: "Tang Zhantong's Publications - Papers and Patents."
                 Yinmin Gu, Yongbo Pan, Chang Pan, Qiang Pang, <span class="me"><u>Zhantong Tang</u></span>, Yiwen Chen, Haojing Zang, Xiaodong Wang, Chang Huang, Qingqing Zhang, Facai Yang, Xiaofeng Zhu, Yibi Zhang, Xujie Zhao, Shan Gao
             </div>
             <div class="pub-venue">
-                Journal of Clinical Investigation.
+                Journal of Clinical Investigation, 2026.
             </div>
         </div>
     </div>
 
-    <!-- Paper 3: Journal of Translational Medicine -->
+    <h3 class="pub-year-header">2024</h3>
+
+    <!-- Paper 2: Journal of Translational Medicine (2024) -->
     <div class="pub-item">
         <div class="pub-cover">
             <img src="/assets/images/cover_jtm.jpg" alt="Journal of Translational Medicine Cover">
@@ -145,6 +141,26 @@ description: "Tang Zhantong's Publications - Papers and Patents."
             </div>
             <div class="pub-venue">
                 Journal of Translational Medicine, 2024.
+            </div>
+        </div>
+    </div>
+
+    <h3 class="pub-year-header">2022</h3>
+
+    <!-- Paper 3: Catalysis Letters (2022) -->
+    <div class="pub-item">
+        <div class="pub-cover">
+            <img src="/assets/images/cover_cat_lett.jpg" alt="Catalysis Letters Cover">
+        </div>
+        <div class="pub-info">
+            <div class="pub-title">
+                <a href="https://doi.org/10.1007/s10562-022-04196-9" target="_blank">Design of a Nanoscale Ni Catalyst for Debenzylation Reactions via Hydrogenative C–N Bond Cleavage</a>
+            </div>
+            <div class="pub-authors">
+                Shuang Liu, Wei Zhao, <span class="me"><u>Zhantong Tang</u></span>, Li Zhang, Kailiang Guo, Huishu Wang, Yong Men, Jun Yang, Jun Dai
+            </div>
+            <div class="pub-venue">
+                Catalysis Letters, 2022.
             </div>
         </div>
     </div>
