@@ -190,7 +190,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     <div class="about-text">
         <h2>About Me</h2>
         <p>Hi! I'm <strong>Tang Zhantong</strong>, a master's student at <strong>Southeast University</strong> (School of Medicine), passionate about biology and biomedical engineering. My research focuses on building <em>in vitro</em> models to reduce dependence on experimental animals.</p>
-        <p>I love cats, coding, and exploring the intersection of biology and engineering. Currently seeking PhD opportunities.</p>
+        <p>I love cats, coding, artificial intelligence, and exploring the intersection of biology, engineering, and AI. I will graduate from Southeast University in June 2026 and immediately proceed to Guangzhou Laboratory to conduct my doctoral training.</p>
         <div class="about-links">
             <a href="https://x.com/Newkotang" target="_blank">𝕏 Twitter</a>
             <a href="https://orcid.org/0009-0007-8038-7506" target="_blank">🔬 ORCID</a>
