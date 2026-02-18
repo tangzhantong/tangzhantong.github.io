@@ -20,7 +20,7 @@
 
 title: Tang Zhantong
 email: zhantongtang@gmail.com
-description: "Tang Zhantong - Committed to reducing dependence on and harm to experimental animals through innovative in vitro models and organ-on-a-chip technology."
+description: "唐展通 (Tang Zhantong) - 致力于通过创新体外模型与器官芯片技术减少对实验动物的依赖与伤害。Committed to reducing dependence on and harm to experimental animals through innovative in vitro models and organ-on-a-chip technology."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tangzhantong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  tangzhantong
@@ -29,6 +29,8 @@ github_username:  tangzhantong
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 # 导航栏设置 (按顺序排列)
 header_pages:
   - news.md
