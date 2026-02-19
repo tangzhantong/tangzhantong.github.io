@@ -156,6 +156,9 @@ description: "唐展通的个人网站 - 致力于减少对实验动物的依赖
             <a href="https://orcid.org/0009-0007-8038-7506" target="_blank">🔬 ORCID</a>
             <a href="https://www.youtube.com/@Newko-t2v" target="_blank">▶ YouTube</a>
             <a href="https://www.instagram.com/jetb.rainslicensecrack/" target="_blank">📸 Instagram</a>
+            <a href="https://scholar.google.com/citations?user=f59aEisAAAAJ&hl=en" target="_blank">🎓 谷歌学术</a>
+            <a href="https://www.researchgate.net/profile/Tang-Zhantong" target="_blank">ʀɢ ResearchGate</a>
+            <a href="https://space.bilibili.com/277751628" target="_blank">📺 Bilibili</a>
             <a href="mailto:zhantongtang@gmail.com">✉ 邮箱</a>
         </div>
     </div>

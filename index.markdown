@@ -196,6 +196,9 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
             <a href="https://orcid.org/0009-0007-8038-7506" target="_blank">🔬 ORCID</a>
             <a href="https://www.youtube.com/@Newko-t2v" target="_blank">▶ YouTube</a>
             <a href="https://www.instagram.com/jetb.rainslicensecrack/" target="_blank">📸 Instagram</a>
+            <a href="https://scholar.google.com/citations?user=f59aEisAAAAJ&hl=en" target="_blank">🎓 Google Scholar</a>
+            <a href="https://www.researchgate.net/profile/Tang-Zhantong" target="_blank">ʀɢ ResearchGate</a>
+            <a href="https://space.bilibili.com/277751628" target="_blank">📺 Bilibili</a>
             <a href="mailto:zhantongtang@gmail.com">✉ Email</a>
         </div>
     </div>
