@@ -1,0 +1,6 @@
+root = true
+
+[assets/main.scss]
+insert_final_newline = false
+trim_trailing_whitespace = false
+max_line_length = off
