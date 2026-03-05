@@ -55,7 +55,7 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
 </style>
 
 <div class="hero-wrapper">
-    <div class="hero-banner" style="background-image: url('/assets/images/research_bg.jpg');">
+    <div class="hero-banner" style="background-image: url('/assets/images/StCat_Mac_Light.png');">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="hero-title">Research</h1>
