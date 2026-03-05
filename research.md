@@ -116,6 +116,8 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
             <p>
                 Investigating the role of NQO1 (NAD(P)H quinone dehydrogenase 1) in ferroptosis regulation and its implications for Sorafenib resistance in hepatocellular carcinoma. Using single-cell RNA sequencing analysis and spatial transcriptomics, we identified NQO1 as a key regulator of the NFE2L2-SLC7A11-GPX4 signaling axis.
             </p>
+            <img src="/assets/images/resis_new.png" alt="Sorafenib Resistance" class="project-img">
+            <img src="/assets/images/ferr_1.png" alt="Ferroptosis Regulation" class="project-img">
             <div class="project-tags">
                 <span class="project-tag">NQO1</span>
                 <span class="project-tag">Ferroptosis</span>
