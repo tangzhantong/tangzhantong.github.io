@@ -24,7 +24,7 @@ description: "Meet the members of Tang Zhantong's lab family."
 </style>
 
 <div class="hero-wrapper">
-    <div class="hero-banner" style="background-image: url('/assets/images/banner2.jpg');">
+    <div class="hero-banner" style="background-image: url('/assets/images/Commander_Light_Mac.png');">
         <div class="hero-overlay"></div>
         <h1 class="hero-title">Members</h1>
     </div>
