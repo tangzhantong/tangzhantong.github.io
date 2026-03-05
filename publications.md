@@ -10,7 +10,7 @@ description: "Tang Zhantong's Publications - Papers and Patents."
 
 
 <div class="hero-wrapper">
-    <div class="hero-banner" style="background-image: url('/assets/images/banner3.jpg');">
+    <div class="hero-banner" style="background-image: url('/assets/images/cny24_dl_wallpaper_mac_12032x6768_2x.jpg');">
         <div class="hero-overlay"></div>
         <h1 class="hero-title">Publications</h1>
     </div>
