@@ -185,7 +185,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 <!-- About Me -->
 <div class="about-section reveal">
     <div class="about-photo">
-        <img src="/assets/images/memberzhantong.jpg" alt="Tang Zhantong portrait" loading="lazy">
+        <img src="/assets/images/tang_selfish.png" alt="Tang Zhantong portrait" loading="lazy">
     </div>
     <div class="about-text">
         <h2>About Me</h2>
