@@ -80,10 +80,7 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
         <h2 class="project-title">1. Modeling Influenza Immune Response in Organ-on-a-Chip</h2>
         <div class="project-desc">
             <p>
-                This project aims to explore the immune response after influenza virus infection using an organ-on-a-chip model. By integrating airway epithelial cells with immune cells in a microfluidic device, we can simulate the complex interactions that occur during respiratory viral infections in a controlled, reproducible environment.
-            </p>
-            <p>
-                Our approach eliminates the need for animal models while providing physiologically relevant insights into viral pathogenesis and host defense mechanisms. The platform enables real-time monitoring of cytokine production, cell migration, and tissue barrier integrity.
+                We integrate airway epithelial cells with immune cells in a microfluidic chip and infect the model with influenza virus. The chip lets us measure cytokine production, immune cell migration, and barrier integrity in real time — without animal experiments.
             </p>
             <div class="project-tags">
                 <span class="project-tag">Organ-on-a-Chip</span>
@@ -98,7 +95,7 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
         <h2 class="project-title">2. In Vitro Respiratory Tract Modeling</h2>
         <div class="project-desc">
             <p>
-                Developing advanced cell culture systems that accurately recapitulate the human respiratory tract environment. Using air-liquid interface (ALI) cultures and 3D tissue engineering techniques, we create differentiated airway epithelial models for studying disease mechanisms and drug responses.
+                We grow human airway epithelium at an air-liquid interface (ALI) and in 3D tissue engineering constructs. These models recapitulate mucociliary differentiation and let us test pathogen responses and drug candidates without animal models.
             </p>
             <div class="project-tags">
                 <span class="project-tag">ALI Culture</span>
@@ -113,7 +110,7 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
         <h2 class="project-title">3. NQO1 and Ferroptosis in Hepatocellular Carcinoma</h2>
         <div class="project-desc">
             <p>
-                Investigating the role of NQO1 (NAD(P)H quinone dehydrogenase 1) in ferroptosis regulation and its implications for Sorafenib resistance in hepatocellular carcinoma. Using single-cell RNA sequencing analysis and spatial transcriptomics, we identified NQO1 as a key regulator of the NFE2L2-SLC7A11-GPX4 signaling axis.
+                My undergraduate thesis project. We found NQO1 (NAD(P)H quinone dehydrogenase 1) upregulated in sorafenib-resistant liver cancer cells, where it suppresses ferroptosis through the NRF2–SLC7A11–GPX4 axis. Evidence came from single-cell RNA sequencing and spatial transcriptomics data. The project is now discontinued.
             </p>
             <img src="/assets/images/resis_new.jpg" alt="Sorafenib Resistance" class="project-img">
             <img src="/assets/images/ferr_1.jpg" alt="Ferroptosis Regulation" class="project-img">

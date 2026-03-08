@@ -79,8 +79,7 @@ description: "Meet the members of Tang Zhantong's lab family - researchers, engi
     margin: 60px 0 30px;
     color: #444;
     font-weight: 300;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    letter-spacing: -0.02em;
 }
 </style>
 
@@ -92,7 +91,7 @@ description: "Meet the members of Tang Zhantong's lab family - researchers, engi
 </div>
 
 <div class="intro-text reveal">
-    <p>🏳️‍🌈 Upholding Diversity, Equity, and Inclusion (DEI) principles, opposing any form of discrimination, and respecting gender equality and diverse sexual orientations.</p>
+    <p>🏳️‍🌈 This is a DEI-friendly space. Everyone is welcome — regardless of gender, sexual orientation, or background.</p>
 </div>
 
 <h2 class="section-title reveal">Family</h2>

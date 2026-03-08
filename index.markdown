@@ -191,8 +191,8 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     </div>
     <div class="about-text">
         <h2>About Me</h2>
-        <p>Hi! I'm <strong>Tang Zhantong</strong>, a master's student at <strong>Southeast University</strong> (School of Medicine), passionate about biology and biomedical engineering. My research focuses on building <em>in vitro</em> models to reduce dependence on experimental animals.</p>
-        <p>I love cats, coding, artificial intelligence, and exploring the intersection of biology, engineering, and AI. I will graduate from Southeast University in June 2026 and immediately proceed to Guangzhou Laboratory to conduct my doctoral training.</p>
+        <p>Hi, I'm <strong>Tang Zhantong</strong>. I'm a master's student at <strong>Southeast University</strong> (School of Medicine), working on <em>in vitro</em> models that replace animal experiments in respiratory disease research.</p>
+        <p>I like cats, coding, and the overlap between biology and AI. In June 2026 I finish my master's at Southeast University, then start a PhD at Guangzhou Laboratory.</p>
         <div class="about-links">
             <a href="mailto:zhantongtang@gmail.com">✉ Email</a>
             <a href="https://orcid.org/0009-0007-8038-7506" target="_blank">🔬 ORCID</a>
@@ -215,7 +215,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
                 </svg>
             </div>
             <h3>Respiratory Diseases</h3>
-            <p>Modeling influenza and respiratory virus infections using advanced in vitro platforms.</p>
+            <p>Building microfluidic models of influenza and other respiratory virus infections.</p>
         </div>
         <div class="highlight-card hover-lift">
             <div class="highlight-icon">
@@ -226,7 +226,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
                 </svg>
             </div>
             <h3>Organ-on-a-Chip</h3>
-            <p>Developing microfluidic chip systems to simulate organ-level physiology and immune responses.</p>
+            <p>Engineering organ-on-a-chip devices that replicate airway physiology for infection and drug studies.</p>
         </div>
         <div class="highlight-card hover-lift">
             <div class="highlight-icon">
@@ -236,7 +236,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
                 </svg>
             </div>
             <h3>In Vitro Modeling</h3>
-            <p>Creating physiologically relevant cell culture systems as alternatives to animal testing.</p>
+            <p>Using ALI culture and 3D tissue engineering to build human airway models that replace animal experiments.</p>
         </div>
     </div>
 </div>
