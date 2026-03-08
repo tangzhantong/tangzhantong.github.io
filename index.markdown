@@ -12,7 +12,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 
 /* NEWS 区域 */
 .content-container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 60px auto;
     padding: 0 20px;
 }
@@ -23,8 +23,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     font-weight: 700;
     color: #333;
     margin-bottom: 50px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    letter-spacing: -0.02em;
 }
 
 .news-list {
@@ -56,7 +55,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 
 /* --- About Me 区域 --- */
 .about-section {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 80px auto 60px;
     padding: 0 20px;
     display: flex;
@@ -80,6 +79,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     font-size: 1.6rem;
     margin-bottom: 12px;
     color: #333;
+    letter-spacing: -0.02em;
 }
 
 .about-text p {
@@ -116,7 +116,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 
 /* --- Research Highlights --- */
 .highlights-section {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto 80px;
     padding: 0 20px;
 }
@@ -143,8 +143,9 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 }
 
 .highlight-icon {
-    font-size: 2rem;
-    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
 }
 
 .highlight-card h3 {
@@ -178,7 +179,8 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     </video>
     <div class="video-overlay"></div>
     <div class="video-content">
-        <h1 class="hero-title">Committed to reducing dependence on and harm to experimental animals!</h1>
+        <h1 class="hero-title">Less Animal Testing.</h1>
+        <p class="hero-video-subtitle">Better Human Medicine.<br><span>Microfluidic organ-on-a-chip models for respiratory disease research.</span></p>
     </div>
 </div>
 
@@ -205,17 +207,34 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     <h2 class="section-title">Research Interests</h2>
     <div class="highlights-grid">
         <div class="highlight-card hover-lift">
-            <div class="highlight-icon">🫁</div>
+            <div class="highlight-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v8"/>
+                    <path d="M12 10c-2.5 0-5 2-6 5-.8 2.5-.5 5 1 6.5 1 1 2.5 1 3.5.5.8-.5 1.5-1.5 1.5-2.5V10"/>
+                    <path d="M12 10c2.5 0 5 2 6 5 .8 2.5.5 5-1 6.5-1 1-2.5 1-3.5.5-.8-.5-1.5-1.5-1.5-2.5V10"/>
+                </svg>
+            </div>
             <h3>Respiratory Diseases</h3>
             <p>Modeling influenza and respiratory virus infections using advanced in vitro platforms.</p>
         </div>
         <div class="highlight-card hover-lift">
-            <div class="highlight-icon">🧫</div>
+            <div class="highlight-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="6" y="6" width="12" height="12" rx="2"/>
+                    <path d="M6 10H3M6 14H3M18 10h3M18 14h3M10 6V3M14 6V3M10 18v3M14 18v3"/>
+                    <rect x="9" y="9" width="6" height="6" rx="1"/>
+                </svg>
+            </div>
             <h3>Organ-on-a-Chip</h3>
             <p>Developing microfluidic chip systems to simulate organ-level physiology and immune responses.</p>
         </div>
         <div class="highlight-card hover-lift">
-            <div class="highlight-icon">🔬</div>
+            <div class="highlight-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 3h6M9 3v7l-4 9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1l-4-9V3"/>
+                    <path d="M7 17h10"/>
+                </svg>
+            </div>
             <h3>In Vitro Modeling</h3>
             <p>Creating physiologically relevant cell culture systems as alternatives to animal testing.</p>
         </div>

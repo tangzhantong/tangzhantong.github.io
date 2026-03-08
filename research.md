@@ -10,7 +10,7 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
 <style>
 /* === Research 页面专用样式 === */
 .content-section {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto 60px auto;
     padding: 0 20px;
 }
@@ -23,18 +23,17 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
 
 .project-title {
     font-size: 1.8rem;
-    color: #333;
+    font-weight: 700;
+    color: #1d1d1f;
     margin-bottom: 20px;
-    border-left: 5px solid #4a90e2;
-    padding-left: 15px;
-    line-height: 1.3;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
 }
 
 .project-desc {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     line-height: 1.8;
     color: #444;
-    text-align: justify;
 }
 
 .project-tags {

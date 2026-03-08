@@ -17,6 +17,31 @@
    Tang Lab 全局样式控制中心 (Global Styles)
    ========================================= */
 
+
+/* =========================================
+   Apple-inspired Typography Upgrade
+   ========================================= */
+
+body {
+  font-size: 17px;
+  line-height: 1.75;
+  color: #1d1d1f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: #0071e3;
+}
+
+a:hover {
+  color: #0077ed;
+}
+
 .wrapper {
   max-width: 95% !important;
   padding-left: 15px !important;
@@ -72,6 +97,31 @@ body::before {
 }
 
 .page-content,
+
+/* =========================================
+   Apple-inspired Typography Upgrade
+   ========================================= */
+
+body {
+  font-size: 17px;
+  line-height: 1.75;
+  color: #1d1d1f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: #0071e3;
+}
+
+a:hover {
+  color: #0077ed;
+}
+
 .wrapper {
   background: transparent !important;
 }
@@ -142,7 +192,7 @@ textarea {
 /* --- Publications Redesign --- */
 
 .pub-container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 80px auto;
   padding: 0 24px;
 }
@@ -161,6 +211,7 @@ textarea {
   font-size: 1.5rem;
   font-weight: 600;
   color: #333;
+  letter-spacing: -0.02em;
   margin-top: 60px;
   margin-bottom: 24px;
   padding-bottom: 12px;
