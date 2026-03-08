@@ -9,6 +9,47 @@ description: "唐展通的学术论文与发明专利。"
 
 
 
+<style>
+.pub-stats {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 64px;
+    padding: 40px 0 48px;
+    border-bottom: 1px solid #eaeaea;
+}
+.pub-stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.pub-stat-num {
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 700;
+    color: #1d1d1f;
+    letter-spacing: -0.04em;
+    line-height: 1;
+}
+.pub-stat-label {
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: 0.8125rem;
+    color: #888;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-weight: 500;
+}
+.pub-stat-divider {
+    width: 1px;
+    height: 48px;
+    background: #e0e0e0;
+    flex-shrink: 0;
+}
+</style>
+
+
 <div class="hero-wrapper">
     <div class="hero-banner" style="background: #1a1a2e; overflow: hidden;">
         <video autoplay muted loop playsinline style="position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;transform:translate(-50%,-50%);object-fit:cover;" poster="/assets/video/bg_poster.jpg" preload="none"><source src="/assets/video/bg.mp4" type="video/mp4"></video>
@@ -18,6 +59,23 @@ description: "唐展通的学术论文与发明专利。"
 </div>
 
 <div class="pub-container reveal">
+
+<div class="pub-stats">
+    <div class="pub-stat-item">
+        <span class="pub-stat-num">3</span>
+        <span class="pub-stat-label">论文</span>
+    </div>
+    <div class="pub-stat-divider"></div>
+    <div class="pub-stat-item">
+        <span class="pub-stat-num">1</span>
+        <span class="pub-stat-label">专利</span>
+    </div>
+    <div class="pub-stat-divider"></div>
+    <div class="pub-stat-item">
+        <span class="pub-stat-num">3</span>
+        <span class="pub-stat-label">期刊</span>
+    </div>
+</div>
 
     <h2 class="pub-section-title">学术论文 <a href="https://pubmed.ncbi.nlm.nih.gov/?term=tang+zhantong&sort=date" target="_blank" rel="noopener noreferrer" class="pub-see-all">全部论文见 PubMed →</a></h2>
     

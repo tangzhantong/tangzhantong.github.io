@@ -10,7 +10,7 @@ description: "唐展通的个人网站 - 致力于减少对实验动物的依赖
 <style>
 /* --- 首页专用样式 --- */
 .content-container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 60px auto;
     padding: 0 20px;
 }
@@ -21,8 +21,7 @@ description: "唐展通的个人网站 - 致力于减少对实验动物的依赖
     font-weight: 700;
     color: #333;
     margin-bottom: 50px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    letter-spacing: -0.02em;
 }
 
 .news-list { list-style: none; padding: 0; margin: 0; }
@@ -48,7 +47,7 @@ description: "唐展通的个人网站 - 致力于减少对实验动物的依赖
 
 /* About Me */
 .about-section {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 80px auto 60px;
     padding: 0 20px;
     display: flex;
@@ -64,7 +63,7 @@ description: "唐展通的个人网站 - 致力于减少对实验动物的依赖
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-.about-text h2 { font-size: 1.6rem; margin-bottom: 12px; color: #333; }
+.about-text h2 { font-size: 1.6rem; margin-bottom: 12px; color: #333; letter-spacing: -0.02em; }
 .about-text p { font-size: 15px; line-height: 1.8; color: #555; margin-bottom: 10px; }
 
 .about-links {
@@ -94,7 +93,7 @@ description: "唐展通的个人网站 - 致力于减少对实验动物的依赖
 
 /* Research Highlights */
 .highlights-section {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto 80px;
     padding: 0 20px;
 }
@@ -120,7 +119,7 @@ description: "唐展通的个人网站 - 致力于减少对实验动物的依赖
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
-.highlight-icon { font-size: 2rem; margin-bottom: 12px; }
+.highlight-icon { display: flex; justify-content: center; margin-bottom: 16px; }
 .highlight-card h3 { font-size: 1rem; margin-bottom: 8px; color: #333; }
 .highlight-card p { font-size: 13px; color: #666; line-height: 1.6; }
 
@@ -137,8 +136,8 @@ description: "唐展通的个人网站 - 致力于减少对实验动物的依赖
     </video>
     <div class="video-overlay"></div>
     <div class="video-content">
-        <h1 class="hero-title">致力于减少对实验动物的依赖和伤害！</h1>
-        <p class="hero-subtitle">Committed to reducing dependence on and harm to experimental animals!</p>
+        <h1 class="hero-title">减少动物实验。</h1>
+        <p class="hero-video-subtitle">造福人类医学。<br><span>基于微流控器官芯片的呼吸道疾病体外模型研究。</span></p>
     </div>
 </div>
 
@@ -165,17 +164,34 @@ description: "唐展通的个人网站 - 致力于减少对实验动物的依赖
     <h2 class="section-title">研究方向</h2>
     <div class="highlights-grid">
         <div class="highlight-card hover-lift">
-            <div class="highlight-icon">🫁</div>
+            <div class="highlight-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v8"/>
+                    <path d="M12 10c-2.5 0-5 2-6 5-.8 2.5-.5 5 1 6.5 1 1 2.5 1 3.5.5.8-.5 1.5-1.5 1.5-2.5V10"/>
+                    <path d="M12 10c2.5 0 5 2 6 5 .8 2.5.5 5-1 6.5-1 1-2.5 1-3.5.5-.8-.5-1.5-1.5-1.5-2.5V10"/>
+                </svg>
+            </div>
             <h3>呼吸系统疾病</h3>
             <p>利用先进的体外平台，模拟流感及呼吸道病毒感染过程。</p>
         </div>
         <div class="highlight-card hover-lift">
-            <div class="highlight-icon">🧫</div>
+            <div class="highlight-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="6" y="6" width="12" height="12" rx="2"/>
+                    <path d="M6 10H3M6 14H3M18 10h3M18 14h3M10 6V3M14 6V3M10 18v3M14 18v3"/>
+                    <rect x="9" y="9" width="6" height="6" rx="1"/>
+                </svg>
+            </div>
             <h3>器官芯片</h3>
             <p>开发微流控芯片系统，模拟器官级别的生理功能与免疫应答。</p>
         </div>
         <div class="highlight-card hover-lift">
-            <div class="highlight-icon">🔬</div>
+            <div class="highlight-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 3h6M9 3v7l-4 9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1l-4-9V3"/>
+                    <path d="M7 17h10"/>
+                </svg>
+            </div>
             <h3>体外建模</h3>
             <p>构建生理相关的细胞培养体系，作为动物实验的替代方案。</p>
         </div>

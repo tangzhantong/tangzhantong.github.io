@@ -9,7 +9,7 @@ description: "唐展通的科研方向：呼吸系统疾病、器官芯片与体
 
 <style>
 .content-section {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto 60px auto;
     padding: 0 20px;
 }
@@ -22,10 +22,12 @@ description: "唐展通的科研方向：呼吸系统疾病、器官芯片与体
 
 .project-title {
     font-size: 1.8rem;
-    color: #1a1a1a;
+    font-weight: 700;
+    color: #1d1d1f;
     margin-bottom: 20px;
     padding-top: 8px;
-    line-height: 1.3;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
     font-family: 'Lora', Georgia, serif;
 }
 
@@ -35,10 +37,9 @@ description: "唐展通的科研方向：呼吸系统疾病、器官芯片与体
 }
 
 .project-desc {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     line-height: 1.8;
     color: #444;
-    text-align: justify;
 }
 
 .project-tags {
