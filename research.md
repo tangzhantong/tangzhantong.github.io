@@ -17,14 +17,14 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
 
 .project-card {
     margin-bottom: 50px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--color-border-light);
     padding-bottom: 40px;
 }
 
 .project-title {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #1d1d1f;
+    color: var(--color-text-primary);
     margin-bottom: 20px;
     letter-spacing: -0.02em;
     line-height: 1.25;
@@ -33,25 +33,14 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
 .project-desc {
     font-size: 1.05rem;
     line-height: 1.8;
-    color: #444;
+    color: var(--color-text-secondary);
 }
 
-.project-tags {
+.project-keywords {
     margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-.project-tag {
-    display: inline-block;
-    padding: 4px 12px;
-    background: #f5f5f5;
-    border: 1px solid #e0e0e0;
-    border-radius: 15px;
-    font-size: 12px;
-    color: #666;
-    letter-spacing: 0.5px;
+    font-size: 0.875rem;
+    color: var(--color-text-tertiary, #86868b);
+    letter-spacing: 0.01em;
 }
 
 .project-img {
@@ -69,9 +58,7 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="hero-title">Research</h1>
-            <div class="hero-subtitle" style="border-top: 1px solid rgba(255,255,255,0.6); padding-top: 15px; display: inline-block;">
-                Research Areas: Respiratory Diseases · In Vitro Modeling · Organ-on-a-Chip · Immunology · Virology
-            </div>
+            <div class="hero-subtitle">Respiratory Diseases · In Vitro Modeling · Organ-on-a-Chip</div>
         </div>
     </div>
 </div>
@@ -83,12 +70,7 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
             <p>
                 We integrate airway epithelial cells with immune cells in a microfluidic chip and infect the model with influenza virus. The chip lets us measure cytokine production, immune cell migration, and barrier integrity in real time — without animal experiments.
             </p>
-            <div class="project-tags">
-                <span class="project-tag">Organ-on-a-Chip</span>
-                <span class="project-tag">Influenza</span>
-                <span class="project-tag">Immune Response</span>
-                <span class="project-tag">Microfluidics</span>
-            </div>
+            <p class="project-keywords">Organ-on-a-Chip · Influenza · Immune Response · Microfluidics</p>
         </div>
     </div>
 
@@ -98,12 +80,7 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
             <p>
                 We grow human airway epithelium at an air-liquid interface (ALI) and in 3D tissue engineering constructs. These models recapitulate mucociliary differentiation and let us test pathogen responses and drug candidates without animal models.
             </p>
-            <div class="project-tags">
-                <span class="project-tag">ALI Culture</span>
-                <span class="project-tag">3D Tissue Engineering</span>
-                <span class="project-tag">Airway Epithelium</span>
-                <span class="project-tag">Drug Screening</span>
-            </div>
+            <p class="project-keywords">ALI Culture · 3D Tissue Engineering · Airway Epithelium · Drug Screening</p>
         </div>
     </div>
 
@@ -115,12 +92,7 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
             </p>
             <img src="/assets/images/resis_new.jpg" alt="Sorafenib Resistance" class="project-img">
             <img src="/assets/images/ferr_1.jpg" alt="Ferroptosis Regulation" class="project-img">
-            <div class="project-tags">
-                <span class="project-tag">NQO1</span>
-                <span class="project-tag">Ferroptosis</span>
-                <span class="project-tag">Single-cell RNA-seq</span>
-                <span class="project-tag">Sorafenib Resistance</span>
-            </div>
+            <p class="project-keywords">NQO1 · Ferroptosis · Single-cell RNA-seq · Sorafenib Resistance</p>
         </div>
     </div>
 </div>

@@ -42,13 +42,11 @@
     object-fit: cover;
     display: block;
     border-radius: 0;
-    filter: grayscale(20%);
-    transition: filter 0.3s, transform 0.3s;
+    transition: transform 0.3s ease;
 }
 
 .gallery-card:hover .gallery-img {
-    filter: grayscale(0%);
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 .gallery-info {

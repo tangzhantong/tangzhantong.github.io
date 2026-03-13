@@ -20,14 +20,11 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
 </div>
 
-<p style="text-align: center; color: #666; margin-bottom: 50px; font-family: serif; font-style: italic; font-size: 1.1rem;">
-<br>
-  <small style="font-size: 0.9rem;">Capturing moments in science and life.</small>
-</p>
+<!-- Removed decorative slogan: let photos speak for themselves -->
 
 <div class="gallery-container reveal">
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/songrong_0126.jpg" class="gallery-img" alt="Songrong the cat going home after boarding" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Going Home~</h3>
@@ -35,7 +32,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/dabao_new_bed.jpg" class="gallery-img" alt="Dabao the cat in his new warm bed" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">New Bedroom 😌</h3>
@@ -43,7 +40,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/pic_haoyu_cat.jpg" class="gallery-img" alt="Haoyu playing with cats at a cat cafe" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Cat Cafe Time</h3>
@@ -51,7 +48,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/banner1.jpg" class="gallery-img" alt="Qingdao Underwater World sharks swimming" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Qingdao Underwater World</h3>
@@ -59,7 +56,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/dabao_sleep.jpg" class="gallery-img" alt="Dabao sleeping peacefully on his back" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Sleep 😴</h3>
@@ -67,7 +64,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/dabao_home.jpg" class="gallery-img" alt="Dabao arriving at his new home, curious" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">New Home 👋</h3>
@@ -75,7 +72,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/dabao_go_gome.jpg" class="gallery-img" alt="Dabao in carrier on the way home, looking sad" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Going Home~</h3>
@@ -83,7 +80,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/banner2.jpg" class="gallery-img" alt="Nanjing Xuanwu Lake cherry blossom trip" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Xuanwu Lake Trip</h3>
@@ -91,7 +88,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/banner4.jpg" class="gallery-img" alt="Moganshan homestay cozy scene" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Moganshan Homestay</h3>
@@ -99,7 +96,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/sister_rabbit.jpg" class="gallery-img" alt="Labmate's cute rabbit visiting the lab" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Little Rabbit</h3>
@@ -107,7 +104,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/cell_exp.jpg" class="gallery-img" alt="Cell experiment under microscope" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Cell Experiment...</h3>
@@ -115,7 +112,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/baby_dabao.jpg" class="gallery-img" alt="Baby Dabao kitten with different coat color" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Baby Dabao</h3>
@@ -123,7 +120,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/lab_western.jpg" class="gallery-img" alt="Western Blot protein transfer in lab" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Western Blot</h3>
@@ -131,7 +128,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/lab_cat.jpg" class="gallery-img" alt="Stray cat mom at IPH campus" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Lab Cat (Mom)</h3>
@@ -139,7 +136,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/lab_babycat.jpg" class="gallery-img" alt="Lab cat kitten rescued to shelter" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Lab Cat (Kitten)</h3>
@@ -147,7 +144,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/seu.jpg" class="gallery-img" alt="Southeast University Sipailou Campus auditorium" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">SEU Auditorium</h3>
@@ -155,7 +152,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/autumn.jpg" class="gallery-img" alt="Beautiful autumn scenery at SEU Sipailou Campus" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">SEU Autumn</h3>
@@ -163,7 +160,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/shiyigong.jpg" class="gallery-img" alt="Professor Shi Yigong giving lecture" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Prof. Shi Yigong's Lecture</h3>
@@ -171,7 +168,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/seu_sipailou_campus_snow.jpg" class="gallery-img" alt="SEU Sipailou Campus covered in snow" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">SEU Snow</h3>
@@ -179,7 +176,7 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
     </div>
   </div>
 
-  <div class="gallery-card hover-lift">
+  <div class="gallery-card">
     <img src="/assets/images/seu_sipailou_campus_doudou.jpg" class="gallery-img" alt="Doudou the campus cat at SEU Sipailou" loading="lazy">
     <div class="gallery-info">
       <h3 class="gallery-title">Doudou</h3>

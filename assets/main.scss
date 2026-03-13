@@ -69,32 +69,9 @@ img {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
-.reveal-on-scroll {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.8s ease-out;
-}
+/* reveal-on-scroll removed: unified to .reveal / .revealed in _transitions.scss */
 
-.reveal-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('/assets/images/bg-pattern.jpg');
-  background-repeat: repeat;
-  background-size: 300px;
-  opacity: 0.08;
-  z-index: -1;
-  pointer-events: none;
-  mix-blend-mode: multiply;
-}
+/* bg-pattern removed: pure white background (Apple style) */
 
 .wrapper {
   background: transparent !important;
@@ -116,22 +93,7 @@ body::before {
   text-decoration: none;
 }
 
-body {
-  cursor: url('/assets/images/cursor-arrow.svg') 3 3, auto;
-}
-
-a,
-button,
-input[type="submit"],
-input[type="button"],
-.pointer-cursor {
-  cursor: url('/assets/images/cursor-pointer.svg') 10 2, pointer;
-}
-
-input[type="text"],
-textarea {
-  cursor: text;
-}
+/* Custom cursors removed: use native system cursors (Apple convention) */
 
 .cat-header-logo {
   height: 40px;
@@ -139,11 +101,6 @@ textarea {
   margin-right: 10px;
   vertical-align: middle;
   border-radius: 12px;
-  transition: transform 0.3s ease;
-}
-
-.site-title:hover .cat-header-logo {
-  transform: rotate(15deg);
 }
 
 /* 隐藏 minima 默认 Footer */
@@ -151,17 +108,7 @@ textarea {
   display: none;
 }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+/* fadeInUp removed: unified to pageFadeIn in _transitions.scss */
 
 /* --- Publications Redesign --- */
 
