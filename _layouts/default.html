@@ -18,6 +18,23 @@
     <script src="/assets/js/scroll-reveal.js"></script>
     <!-- Gallery Lightbox -->
     <script src="/assets/js/lightbox.js"></script>
+    <!-- 导航栏滚动毛玻璃效果 -->
+    <script>
+    (function() {
+      var header = document.querySelector('.page-has-hero header.site-header');
+      if (!header) return;
+      var threshold = 60;
+      function onScroll() {
+        if (window.scrollY > threshold) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+    </script>
 
 </body>
 <style>
@@ -30,6 +47,18 @@
         --cursor-light: url('data:image/svg+xml;utf8,<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M5.5 3.5L16.5 28.5L20.5 19.5L28.5 28.5L30.5 26.5L22.5 17.5L30.5 15.5L5.5 3.5Z" fill="white" stroke="black" stroke-width="1"/></svg>') 2 2, auto;
         --font-primary: 'Inter', 'Helvetica Neue', Arial, sans-serif;
         --font-serif: 'Lora', Georgia, serif;
+
+        /* Apple-inspired unified color system */
+        --color-text-primary: #1d1d1f;
+        --color-text-secondary: #515154;
+        --color-text-tertiary: #86868b;
+        --color-link: #0071e3;
+        --color-link-hover: #0077ed;
+        --color-border: #d2d2d7;
+        --color-border-light: #e8e8ed;
+        --color-bg-secondary: #f5f5f7;
+        --color-bg-card: #ffffff;
+        --radius-card: 12px;
     }
 
     body {

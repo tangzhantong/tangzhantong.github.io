@@ -21,7 +21,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     text-align: center;
     font-size: 1.8rem;
     font-weight: 700;
-    color: #333;
+    color: var(--color-text-primary);
     margin-bottom: 50px;
     letter-spacing: -0.02em;
 }
@@ -36,21 +36,21 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     display: flex;
     align-items: flex-start;
     padding: 20px 0;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid var(--color-border-light);
     font-size: 16px;
     line-height: 1.8;
 }
 
 .news-date {
     font-weight: 600;
-    color: #888;
+    color: var(--color-text-tertiary);
     min-width: 130px;
     margin-right: 30px;
     font-family: monospace;
 }
 
 .news-content {
-    color: #444;
+    color: var(--color-text-secondary);
 }
 
 /* --- About Me 区域 --- */
@@ -78,14 +78,14 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 .about-text h2 {
     font-size: 1.6rem;
     margin-bottom: 12px;
-    color: #333;
+    color: var(--color-text-primary);
     letter-spacing: -0.02em;
 }
 
 .about-text p {
     font-size: 15px;
     line-height: 1.8;
-    color: #555;
+    color: var(--color-text-secondary);
     margin-bottom: 10px;
 }
 
@@ -101,16 +101,16 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     align-items: center;
     gap: 6px;
     padding: 6px 14px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--color-border);
     border-radius: 20px;
     font-size: 13px;
-    color: #555 !important;
+    color: var(--color-text-secondary) !important;
     transition: all 0.3s;
 }
 
 .about-links a:hover {
-    border-color: #333;
-    color: #333 !important;
+    border-color: var(--color-text-primary);
+    color: var(--color-text-primary) !important;
     transform: translateY(-1px);
 }
 
@@ -130,14 +130,14 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 
 .highlight-card {
     padding: 25px;
-    border: 1px solid #eee;
-    border-radius: 4px;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-card);
     transition: all 0.3s ease;
     text-align: center;
 }
 
 .highlight-card:hover {
-    border-color: #999;
+    border-color: var(--color-border);
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
@@ -151,12 +151,12 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 .highlight-card h3 {
     font-size: 1rem;
     margin-bottom: 8px;
-    color: #333;
+    color: var(--color-text-primary);
 }
 
 .highlight-card p {
     font-size: 13px;
-    color: #666;
+    color: var(--color-text-secondary);
     line-height: 1.6;
 }
 
@@ -182,6 +182,9 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
         <h1 class="hero-title">Less Animal Testing.</h1>
         <p class="hero-video-subtitle">Better Human Medicine.<br><span>Microfluidic organ-on-a-chip models for respiratory disease research.</span></p>
     </div>
+    <div class="scroll-indicator">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="7 13 12 18 17 13"/><line x1="12" y1="6" x2="12" y2="18"/></svg>
+    </div>
 </div>
 
 <!-- About Me -->
@@ -194,10 +197,22 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
         <p>Hi, I'm <strong>Tang Zhantong</strong>. I'm a master's student at <strong>Southeast University</strong> (School of Medicine), working on <em>in vitro</em> models that replace animal experiments in respiratory disease research.</p>
         <p>I like cats, coding, and the overlap between biology and AI. In June 2026 I finish my master's at Southeast University, then start a PhD at Guangzhou Laboratory.</p>
         <div class="about-links">
-            <a href="mailto:zhantongtang@gmail.com">✉ Email</a>
-            <a href="https://orcid.org/0009-0007-8038-7506" target="_blank">🔬 ORCID</a>
-            <a href="https://scholar.google.com/citations?user=f59aEisAAAAJ&hl=en" target="_blank">🎓 Google Scholar</a>
-            <a href="https://www.researchgate.net/profile/Tang-Zhantong" target="_blank">ʀɢ ResearchGate</a>
+            <a href="mailto:zhantongtang@gmail.com">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                Email
+            </a>
+            <a href="https://orcid.org/0009-0007-8038-7506" target="_blank">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S16.628 0 12 0zm-4.615 17.423h-2.174V9h2.174v8.423zm-1.087-9.56c-.668 0-1.21-.542-1.21-1.21 0-.669.542-1.21 1.21-1.21.668 0 1.21.541 1.21 1.21 0 .668-.542 1.21-1.21 1.21zm10.74 5.337c0 2.658-2.035 3.328-3.793 3.328-1.458 0-2.502-.497-2.906-.856v.614h-2.012V9h2.012v1.076c.404-.497 1.428-1.125 2.886-1.125 2.227 0 3.813 1.636 3.813 4.249zm-2.003-.024c0-1.49-.932-2.399-2.05-2.399-1.018 0-1.76.694-1.76 2.378 0 1.554.743 2.399 1.801 2.399 1.2 0 2.009-.974 2.009-2.378z"/></svg>
+                ORCID
+            </a>
+            <a href="https://scholar.google.com/citations?user=f59aEisAAAAJ&hl=en" target="_blank">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                Google Scholar
+            </a>
+            <a href="https://www.researchgate.net/profile/Tang-Zhantong" target="_blank">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.586 0c-2.123 0-4.152 1.153-5.09 3.017-.938-1.864-2.967-3.017-5.09-3.017C4.276 0 0 4.276 0 9.407c0 5.13 4.276 9.406 9.407 9.406.562 0 1.112-.05 1.648-.147l.82 2.67a.75.75 0 001.254.262l2.316-2.316c3.896-1.212 6.555-4.876 6.555-9.875C22 4.276 19.586 0 19.586 0zM6.61 13.263c-.718 0-1.3-.582-1.3-1.3 0-.718.582-1.3 1.3-1.3.719 0 1.3.582 1.3 1.3 0 .718-.581 1.3-1.3 1.3zm5.39 0c-.718 0-1.3-.582-1.3-1.3 0-.718.582-1.3 1.3-1.3.718 0 1.3.582 1.3 1.3 0 .718-.582 1.3-1.3 1.3z"/></svg>
+                ResearchGate
+            </a>
         </div>
     </div>
 </div>
@@ -206,7 +221,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 <div class="highlights-section reveal">
     <h2 class="section-title">Research Interests</h2>
     <div class="highlights-grid">
-        <div class="highlight-card hover-lift">
+        <div class="highlight-card hover-lift reveal reveal-delay-1">
             <div class="highlight-icon">
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M12 2v8"/>
@@ -217,7 +232,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
             <h3>Respiratory Diseases</h3>
             <p>Building microfluidic models of influenza and other respiratory virus infections.</p>
         </div>
-        <div class="highlight-card hover-lift">
+        <div class="highlight-card hover-lift reveal reveal-delay-2">
             <div class="highlight-icon">
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                     <rect x="6" y="6" width="12" height="12" rx="2"/>
@@ -228,7 +243,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
             <h3>Organ-on-a-Chip</h3>
             <p>Engineering organ-on-a-chip devices that replicate airway physiology for infection and drug studies.</p>
         </div>
-        <div class="highlight-card hover-lift">
+        <div class="highlight-card hover-lift reveal reveal-delay-3">
             <div class="highlight-icon">
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M9 3h6M9 3v7l-4 9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1l-4-9V3"/>

@@ -25,7 +25,7 @@
 body {
   font-size: 17px;
   line-height: 1.75;
-  color: #1d1d1f;
+  color: var(--color-text-primary, #1d1d1f);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,11 +35,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #0071e3;
+  color: var(--color-link, #0071e3);
 }
 
 a:hover {
-  color: #0077ed;
+  color: var(--color-link-hover, #0077ed);
 }
 
 .wrapper {
@@ -65,8 +65,8 @@ img {
 }
 
 .hover-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .reveal-on-scroll {
@@ -96,32 +96,6 @@ body::before {
   mix-blend-mode: multiply;
 }
 
-.page-content,
-
-/* =========================================
-   Apple-inspired Typography Upgrade
-   ========================================= */
-
-body {
-  font-size: 17px;
-  line-height: 1.75;
-  color: #1d1d1f;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -0.02em;
-}
-
-a {
-  color: #0071e3;
-}
-
-a:hover {
-  color: #0077ed;
-}
-
 .wrapper {
   background: transparent !important;
 }
@@ -134,11 +108,11 @@ a:hover {
   font-weight: bold;
   font-size: 26px !important;
   letter-spacing: 1px;
-  color: #333 !important;
+  color: var(--color-text-primary, #1d1d1f) !important;
 }
 
 .site-title:hover {
-  color: #4a90e2 !important;
+  color: var(--color-link, #0071e3) !important;
   text-decoration: none;
 }
 
@@ -201,7 +175,7 @@ textarea {
   font-family: 'Inter', sans-serif;
   font-size: 2rem;
   font-weight: 700;
-  color: #111;
+  color: var(--color-text-primary, #1d1d1f);
   margin-bottom: 40px;
   letter-spacing: -0.02em;
 }
@@ -210,12 +184,12 @@ textarea {
   font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #333;
+  color: var(--color-text-primary, #1d1d1f);
   letter-spacing: -0.02em;
   margin-top: 60px;
   margin-bottom: 24px;
   padding-bottom: 12px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid var(--color-border-light, #e8e8ed);
   display: flex;
   align-items: baseline;
 }
@@ -225,16 +199,16 @@ textarea {
   gap: 24px;
   margin-bottom: 32px;
   padding: 24px;
-  background: #fff;
-  border: 1px solid #eaeaea;
-  border-radius: 12px;
+  background: var(--color-bg-card, #fff);
+  border: 1px solid var(--color-border-light, #e8e8ed);
+  border-radius: var(--radius-card, 12px);
   transition: all 0.2s ease-in-out;
   position: relative;
   overflow: hidden;
 }
 
 .pub-item:hover {
-  border-color: #d0d0d0;
+  border-color: var(--color-border, #d2d2d7);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transform: translateY(-2px);
 }
@@ -244,7 +218,7 @@ textarea {
   width: 120px;
   border-radius: 6px;
   overflow: hidden;
-  background: #f5f5f5;
+  background: var(--color-bg-secondary, #f5f5f7);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
@@ -271,7 +245,7 @@ textarea {
   font-family: 'Inter', sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
-  color: #111;
+  color: var(--color-text-primary, #1d1d1f);
   margin-bottom: 8px;
   line-height: 1.4;
   text-wrap: balance;
@@ -283,14 +257,14 @@ textarea {
 }
 
 .pub-title a:hover {
-  color: #0070f3;
+  color: var(--color-link, #0071e3);
   text-decoration: underline;
 }
 
 .pub-authors {
   font-family: 'Inter', sans-serif;
   font-size: 0.9375rem;
-  color: #555;
+  color: var(--color-text-secondary, #515154);
   margin-bottom: 8px;
   line-height: 1.5;
 }
@@ -298,9 +272,9 @@ textarea {
 .pub-venue {
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
-  color: #666;
+  color: var(--color-text-secondary, #515154);
   font-style: italic;
-  background: #f7f7f7;
+  background: var(--color-bg-secondary, #f5f5f7);
   padding: 2px 8px;
   border-radius: 4px;
   display: inline-block;
@@ -309,7 +283,7 @@ textarea {
 
 .me {
   font-weight: 700;
-  color: #111;
+  color: var(--color-text-primary, #1d1d1f);
   text-decoration: underline;
   text-decoration-color: #999;
 }
@@ -317,7 +291,7 @@ textarea {
 .pub-see-all {
   font-size: 0.75rem;
   font-weight: 400;
-  color: #888;
+  color: var(--color-text-tertiary, #86868b);
   text-decoration: none;
   margin-left: 12px;
   letter-spacing: 0;
@@ -325,6 +299,6 @@ textarea {
 }
 
 .pub-see-all:hover {
-  color: #0070f3;
+  color: var(--color-link, #0071e3);
   text-decoration: underline;
 }

@@ -23,15 +23,16 @@
 /* Gallery 卡片 */
 .gallery-card {
     width: 100%;
-    background: #fff;
-    border: 1px solid #eaeaea;
-    border-radius: 0;
+    background: var(--color-bg-card, #fff);
+    border: 1px solid var(--color-border-light, #e8e8ed);
+    border-radius: var(--radius-card, 12px);
     padding-bottom: 15px;
     transition: all 0.3s ease;
+    overflow: hidden;
 }
 
 .gallery-card:hover {
-    border-color: #999;
+    border-color: var(--color-border, #d2d2d7);
     transform: translateY(-2px);
 }
 
@@ -42,11 +43,12 @@
     display: block;
     border-radius: 0;
     filter: grayscale(20%);
-    transition: filter 0.3s;
+    transition: filter 0.3s, transform 0.3s;
 }
 
 .gallery-card:hover .gallery-img {
     filter: grayscale(0%);
+    transform: scale(1.03);
 }
 
 .gallery-info {
@@ -57,13 +59,13 @@
     margin: 0 0 6px 0;
     font-size: 16px;
     font-weight: 600;
-    color: #222;
-    font-family: "Helvetica Neue", sans-serif;
+    color: var(--color-text-primary, #1d1d1f);
+    font-family: var(--font-primary, 'Inter', sans-serif);
 }
 
 .gallery-desc {
     font-size: 13px;
-    color: #666;
+    color: var(--color-text-secondary, #515154);
     line-height: 1.6;
     margin: 0;
 }
