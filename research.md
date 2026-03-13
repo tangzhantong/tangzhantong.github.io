@@ -48,7 +48,30 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
     max-height: 300px;
     object-fit: cover;
     margin-top: 20px;
-    border-radius: 4px;
+    border-radius: var(--radius-card, 12px);
+}
+
+.project-img-row {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.project-img-row img {
+    flex: 1;
+    max-width: calc(50% - 8px);
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: var(--radius-card, 12px);
+}
+
+@media (max-width: 480px) {
+    .project-img-row {
+        flex-direction: column;
+    }
+    .project-img-row img {
+        max-width: 100%;
+    }
 }
 </style>
 
@@ -90,8 +113,10 @@ description: "Tang Zhantong's research interests in respiratory diseases, organ-
             <p>
                 My undergraduate thesis project. We found NQO1 (NAD(P)H quinone dehydrogenase 1) upregulated in sorafenib-resistant liver cancer cells, where it suppresses ferroptosis through the NRF2–SLC7A11–GPX4 axis. Evidence came from single-cell RNA sequencing and spatial transcriptomics data. The project is now discontinued.
             </p>
-            <img src="/assets/images/resis_new.jpg" alt="Sorafenib Resistance" class="project-img">
-            <img src="/assets/images/ferr_1.jpg" alt="Ferroptosis Regulation" class="project-img">
+            <div class="project-img-row">
+                <img src="/assets/images/resis_new.jpg" alt="Sorafenib Resistance" loading="lazy">
+                <img src="/assets/images/ferr_1.jpg" alt="Ferroptosis Regulation" loading="lazy">
+            </div>
             <p class="project-keywords">NQO1 · Ferroptosis · Single-cell RNA-seq · Sorafenib Resistance</p>
         </div>
     </div>
