@@ -262,6 +262,16 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     
     <ul class="news-list">
         <li class="news-item">
+            <span class="news-date">2026-04-24</span>
+            <span class="news-content">
+                Tang Zhantong passed the master's thesis blind review at Southeast University with two A grades and advances to the oral defense. Best of luck!
+                <a href="/assets/images/thesis_blind_review_2026.png" target="_blank">
+                    <img src="/assets/images/thesis_blind_review_2026.png" alt="Thesis blind review results" loading="lazy" style="display:block;max-width:100%;width:520px;margin-top:12px;border:1px solid var(--color-border-light);border-radius:6px;">
+                </a>
+            </span>
+        </li>
+
+        <li class="news-item">
             <span class="news-date">2026-02-16</span>
             <span class="news-content">On February 16, 2026, we celebrated Chinese New Year in Xianyang, Shaanxi. Happy New Year!</span>
         </li>
