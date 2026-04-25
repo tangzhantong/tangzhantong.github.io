@@ -277,11 +277,6 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
         </li>
 
         <li class="news-item">
-            <span class="news-date">2026-01-09</span>
-            <span class="news-content">Tang Zhantong will attend the PhD entrance exam at the National Institute of Genetics / SOKENDAI, Japan on Jan 19-20. Best of luck!</span>
-        </li>
-        
-        <li class="news-item">
             <span class="news-date">2026-01-06</span>
             <span class="news-content">Tang Zhantong will participate in the pre-defense for graduation from the Department of Genetics and Developmental Biology on Jan 7.</span>
         </li>
