@@ -25,6 +25,14 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
 <div class="gallery-container reveal">
 
   <div class="gallery-card">
+    <img src="/assets/images/hongshan_red_panda.jpg" class="gallery-img" alt="Red panda resting on a tree branch at Nanjing Hongshan Forest Zoo" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">Red Panda Up There 🐼</h3>
+      <p class="gallery-desc">Apr 5, 2026 | Qingming holiday at Nanjing Hongshan Forest Zoo with my partner. Can you spot the little red panda hiding up in the tree?</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/songrong_0126.jpg" class="gallery-img" alt="Songrong the cat going home after boarding" loading="lazy">
     <div class="gallery-overlay">
       <h3 class="gallery-title">Going Home~</h3>
