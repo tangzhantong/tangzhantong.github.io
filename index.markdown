@@ -262,6 +262,11 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     
     <ul class="news-list">
         <li class="news-item">
+            <span class="news-date">2026-05-09</span>
+            <span class="news-content">Tang Zhantong will wrap up his work at Southeast University and move to Guangzhou Laboratory in July 2026 to begin the next chapter of research.</span>
+        </li>
+
+        <li class="news-item">
             <span class="news-date">2026-05-06</span>
             <span class="news-content">
                 Tang Zhantong has been admitted to the joint PhD program of Guangzhou Laboratory and Sun Yat-sen University. Wishing all the best for what comes next!
