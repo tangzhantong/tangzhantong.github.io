@@ -28,8 +28,29 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 
 .news-list {
     list-style: none;
-    padding: 0;
+    padding: 0 16px 0 0;
     margin: 0;
+    max-height: 520px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+}
+
+.news-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.news-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+    background-color: var(--color-border);
+    border-radius: 4px;
+}
+
+.news-list::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-text-tertiary);
 }
 
 .news-item {
@@ -39,6 +60,10 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     border-bottom: 1px solid var(--color-border-light);
     font-size: 16px;
     line-height: 1.8;
+}
+
+.news-item:first-child {
+    padding-top: 0;
 }
 
 .news-date {
