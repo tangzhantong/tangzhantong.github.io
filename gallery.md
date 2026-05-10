@@ -25,6 +25,14 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
 <div class="gallery-container reveal">
 
   <div class="gallery-card">
+    <img src="/assets/images/labor_day_linyi_2026.jpg" class="gallery-img" alt="Tang Zhantong and Haoyu celebrating Labor Day with a strawberry cake in Linyi, Shandong" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">May Day in Linyi 🎂</h3>
+      <p class="gallery-desc">May 1, 2026 | Celebrating International Workers' Day with Haoyu in Linyi, Shandong.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/hongshan_red_panda.jpg" class="gallery-img" alt="Red panda resting on a tree branch at Nanjing Hongshan Forest Zoo" loading="lazy">
     <div class="gallery-overlay">
       <h3 class="gallery-title">Red Panda Up There 🐼</h3>
