@@ -25,6 +25,22 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
 <div class="gallery-container reveal">
 
   <div class="gallery-card">
+    <img src="/assets/images/haoyu_shilaoren_beach_2026.jpg" class="gallery-img" alt="Haoyu standing on the sand at Shilaoren Beach in Qingdao with the sea behind" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">Shilaoren Beach 🌊</h3>
+      <p class="gallery-desc">Late May 2026 | A short weekend break after the defense — Haoyu at Shilaoren Beach, Qingdao.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/xiao_qingdao_2026.jpg" class="gallery-img" alt="Tang Zhantong sitting by the rocks at Xiao Qingdao island, looking out to the sea" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">Xiao Qingdao 🏝️</h3>
+      <p class="gallery-desc">Late May 2026 | Sitting by the sea at Xiao Qingdao (Little Qingdao Island), enjoying a quiet moment after the defense.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/genetics_dev_bio_defense_2026.jpg" class="gallery-img" alt="Group photo of Department of Genetics and Developmental Biology students with their master's thesis certificates at Southeast University" loading="lazy">
     <div class="gallery-overlay">
       <h3 class="gallery-title">Master's Defense Day 🎓</h3>
