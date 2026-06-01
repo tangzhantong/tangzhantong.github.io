@@ -287,6 +287,16 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     
     <ul class="news-list">
         <li class="news-item">
+            <span class="news-date">2026-05-22</span>
+            <span class="news-content">
+                Tang Zhantong passed his master's thesis oral defense at Southeast University with an Excellent grade. Congratulations!
+                <a href="/assets/images/master_defense_2026.jpg" target="_blank">
+                    <img src="/assets/images/master_defense_2026.jpg" alt="Master's thesis defense group photo" loading="lazy" style="display:block;max-width:100%;width:520px;margin-top:12px;border:1px solid var(--color-border-light);border-radius:6px;">
+                </a>
+            </span>
+        </li>
+
+        <li class="news-item">
             <span class="news-date">2026-05-09</span>
             <span class="news-content">Tang Zhantong will wrap up his work at Southeast University and move to Guangzhou Laboratory in July 2026 to begin the next chapter of research.</span>
         </li>
