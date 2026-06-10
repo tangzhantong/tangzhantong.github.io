@@ -3,3 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# 原圖備份（本機保留，不推送，可還原優化前圖片）
+assets/images/_original/
