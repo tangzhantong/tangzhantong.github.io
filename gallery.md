@@ -25,6 +25,14 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
 <div class="gallery-container reveal">
 
   <div class="gallery-card">
+    <img src="/assets/images/guangzhou_lab_bioisland_2026.jpg" class="gallery-img" alt="Guangzhou Laboratory building lit up at dusk on International Bio-Island, seen across the park lake" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">Guangzhou Lab @ Bio-Island 🔬</h3>
+      <p class="gallery-desc">Jun 2026 | Guangzhou Laboratory sits on International Bio-Island. My desk is in Building B. The road ahead is tough — but stay passionate and keep going!</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/haoyu_shilaoren_beach_2026.jpg" class="gallery-img" alt="Haoyu standing on the sand at Shilaoren Beach in Qingdao with the sea behind" loading="lazy">
     <div class="gallery-overlay">
       <h3 class="gallery-title">Shilaoren Beach 🌊</h3>
