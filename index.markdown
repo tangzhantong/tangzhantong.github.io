@@ -220,7 +220,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     <div class="about-text">
         <h2>About Me</h2>
         <p>Hi, I'm <strong>Tang Zhantong</strong>. I'm a master's student at <strong>Southeast University</strong> (School of Medicine), working on <em>in vitro</em> models that replace animal experiments in respiratory disease research.</p>
-        <p>I like cats, coding, and the overlap between biology and AI. In June 2026 I finish my master's at Southeast University, then start a PhD at Guangzhou Laboratory.</p>
+        <p>I like cats, coding, and the overlap between biology and AI. I'm currently doing my PhD training at Guangzhou Laboratory.</p>
         <div class="about-links">
             <a href="mailto:zhantongtang@gmail.com">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
