@@ -202,6 +202,31 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     min-width: 0;
 }
 
+.resource-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.resource-heading .section-title {
+    margin-bottom: 0;
+}
+
+.resource-archive-link {
+    flex: 0 0 auto;
+    color: var(--color-text-tertiary) !important;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.resource-archive-link:hover {
+    color: var(--color-text-primary) !important;
+    border-color: var(--color-text-primary);
+}
+
 .resource-card {
     display: flex;
     align-items: center;
@@ -422,7 +447,10 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
         </div>
 
         <div class="resource-panel">
-            <h2 class="section-title">This Week's Research Picks</h2>
+            <div class="resource-heading">
+                <h2 class="section-title">This Week's Research Picks</h2>
+                <a class="resource-archive-link" href="/research-picks/">Archive</a>
+            </div>
             <div class="github-picks">
                 <a class="github-pick reveal reveal-delay-1" href="https://github.com/jupyter-book/jupyter-book" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
