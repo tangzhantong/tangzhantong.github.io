@@ -192,6 +192,16 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     padding: 0 20px;
 }
 
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+}
+
+.resource-panel {
+    min-width: 0;
+}
+
 .resource-card {
     display: flex;
     align-items: center;
@@ -238,6 +248,55 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     color: var(--color-text-primary);
 }
 
+.github-picks {
+    display: grid;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.github-pick {
+    display: block;
+    padding: 17px 18px;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-card);
+    background: var(--color-bg-card);
+    transition: all 0.25s ease;
+}
+
+.github-pick:hover {
+    border-color: var(--color-border);
+    box-shadow: 0 5px 16px rgba(0,0,0,0.07);
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.github-pick-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 5px;
+}
+
+.github-pick-name {
+    color: var(--color-text-primary);
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.github-pick-stars {
+    flex: 0 0 auto;
+    color: var(--color-text-tertiary);
+    font-size: 12px;
+}
+
+.github-pick p {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 13px;
+    line-height: 1.55;
+}
+
 /* 移动端 */
 @media (max-width: 768px) {
     .about-section {
@@ -250,6 +309,10 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     .resource-card {
         align-items: flex-start;
         padding: 24px 22px;
+    }
+    .resources-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
     }
 }
 </style>
@@ -340,18 +403,49 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 
 <!-- Shared Resources -->
 <div class="resources-section reveal">
-    <h2 class="section-title">Recommended Reading</h2>
-    <div class="resource-card hover-lift reveal reveal-delay-1">
-        <div class="resource-icon" aria-hidden="true">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
-                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
-                <path d="M8 7h8M8 11h6"/>
-            </svg>
+    <div class="resources-grid">
+        <div class="resource-panel">
+            <h2 class="section-title">Recommended Reading</h2>
+            <div class="resource-card hover-lift reveal reveal-delay-1">
+                <div class="resource-icon" aria-hidden="true">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                        <path d="M8 7h8M8 11h6"/>
+                    </svg>
+                </div>
+                <div class="resource-content">
+                    <h3>Getting Started with Immunology</h3>
+                    <p>If you are interested in learning immunology, I recommend <span class="resource-book-title">Cellular and Molecular Immunology, 8th Edition</span>.</p>
+                </div>
+            </div>
         </div>
-        <div class="resource-content">
-            <h3>Getting Started with Immunology</h3>
-            <p>If you are interested in learning immunology, I recommend <span class="resource-book-title">Cellular and Molecular Immunology, 8th Edition</span>.</p>
+
+        <div class="resource-panel">
+            <h2 class="section-title">This Week's Research Picks</h2>
+            <div class="github-picks">
+                <a class="github-pick reveal reveal-delay-1" href="https://github.com/jupyter-book/jupyter-book" target="_blank" rel="noopener noreferrer">
+                    <div class="github-pick-header">
+                        <span class="github-pick-name">Jupyter Book</span>
+                        <span class="github-pick-stars">★ 4.3k</span>
+                    </div>
+                    <p>Build publication-quality research documents from notebooks and Markdown.</p>
+                </a>
+                <a class="github-pick reveal reveal-delay-2" href="https://github.com/sokrypton/ColabFold" target="_blank" rel="noopener noreferrer">
+                    <div class="github-pick-header">
+                        <span class="github-pick-name">ColabFold</span>
+                        <span class="github-pick-stars">★ 2.8k</span>
+                    </div>
+                    <p>An accessible workflow for protein structure prediction with AlphaFold2.</p>
+                </a>
+                <a class="github-pick reveal reveal-delay-3" href="https://github.com/theislab/single-cell-best-practices" target="_blank" rel="noopener noreferrer">
+                    <div class="github-pick-header">
+                        <span class="github-pick-name">Single-Cell Best Practices</span>
+                        <span class="github-pick-stars">★ 1.2k</span>
+                    </div>
+                    <p>A practical, open guide to single-cell and omics data analysis.</p>
+                </a>
+            </div>
         </div>
     </div>
 </div>
