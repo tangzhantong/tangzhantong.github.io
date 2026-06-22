@@ -185,6 +185,59 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     line-height: 1.6;
 }
 
+/* --- Shared Resources --- */
+.resources-section {
+    max-width: 1100px;
+    margin: -30px auto 80px;
+    padding: 0 20px;
+}
+
+.resource-card {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-top: 30px;
+    padding: 28px 30px;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-card);
+    background: var(--color-bg-card);
+    transition: all 0.3s ease;
+}
+
+.resource-card:hover {
+    border-color: var(--color-border);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.resource-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 58px;
+    width: 58px;
+    height: 58px;
+    border-radius: 16px;
+    background: #f2f7fc;
+}
+
+.resource-content h3 {
+    margin: 0 0 7px;
+    font-size: 1.05rem;
+    color: var(--color-text-primary);
+}
+
+.resource-content p {
+    margin: 0;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+}
+
+.resource-book-title {
+    font-style: italic;
+    color: var(--color-text-primary);
+}
+
 /* 移动端 */
 @media (max-width: 768px) {
     .about-section {
@@ -193,6 +246,10 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     }
     .about-links {
         justify-content: center;
+    }
+    .resource-card {
+        align-items: flex-start;
+        padding: 24px 22px;
     }
 }
 </style>
@@ -277,6 +334,24 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
             </div>
             <h3>In Vitro Modeling</h3>
             <p>Using ALI culture and 3D tissue engineering to build human airway models that replace animal experiments.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Shared Resources -->
+<div class="resources-section reveal">
+    <h2 class="section-title">Recommended Reading</h2>
+    <div class="resource-card hover-lift reveal reveal-delay-1">
+        <div class="resource-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                <path d="M8 7h8M8 11h6"/>
+            </svg>
+        </div>
+        <div class="resource-content">
+            <h3>Getting Started with Immunology</h3>
+            <p>If you are interested in learning immunology, I recommend <span class="resource-book-title">Cellular and Molecular Immunology, 8th Edition</span>.</p>
         </div>
     </div>
 </div>
