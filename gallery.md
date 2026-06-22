@@ -25,6 +25,14 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
 <div class="gallery-container reveal">
 
   <div class="gallery-card">
+    <img src="/assets/images/parents_master_graduation_2026.jpg" class="gallery-img" alt="Tang Zhantong in master's graduation gown and cap, standing with his parents in front of the gymnasium at Southeast University's Sipailou campus" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">Graduation with My Parents 🎓</h3>
+      <p class="gallery-desc">Jun 2026 | My parents came to my master's commencement. We took this photo in front of the gymnasium at Southeast University's historic Sipailou campus.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/guangzhou_lab_bioisland_2026.jpg" class="gallery-img" alt="Guangzhou Laboratory building lit up at dusk on International Bio-Island, seen across the park lake" loading="lazy">
     <div class="gallery-overlay">
       <h3 class="gallery-title">Guangzhou Lab @ Bio-Island 🔬</h3>
