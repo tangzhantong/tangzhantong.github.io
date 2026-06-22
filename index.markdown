@@ -95,9 +95,8 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 .about-photo img {
     width: 180px;
     height: 180px;
-    border-radius: 12px;
+    border-radius: 0;
     object-fit: cover;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .about-text h2 {
@@ -116,8 +115,8 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 
 .about-links {
     display: flex;
-    gap: 12px;
-    margin-top: 15px;
+    gap: 10px 20px;
+    margin-top: 18px;
     flex-wrap: wrap;
 }
 
@@ -125,18 +124,16 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    padding: 6px 14px;
-    border: 1px solid var(--color-border);
-    border-radius: 20px;
+    padding: 0 0 3px;
+    border-bottom: 1px solid transparent;
     font-size: 13px;
     color: var(--color-text-secondary) !important;
-    transition: all 0.3s;
+    transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .about-links a:hover {
-    border-color: var(--color-text-primary);
     color: var(--color-text-primary) !important;
-    transform: translateY(-1px);
+    border-color: var(--color-text-primary);
 }
 
 /* --- Research Highlights --- */
@@ -149,28 +146,26 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 .highlights-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
+    gap: 0;
     margin-top: 30px;
+    border-top: 1px solid var(--color-border-light);
+    border-bottom: 1px solid var(--color-border-light);
 }
 
 .highlight-card {
-    padding: 25px;
-    border: 1px solid var(--color-border-light);
-    border-radius: var(--radius-card);
-    transition: all 0.3s ease;
-    text-align: center;
+    padding: 34px 30px;
+    border-right: 1px solid var(--color-border-light);
+    text-align: left;
 }
 
-.highlight-card:hover {
-    border-color: var(--color-border);
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+.highlight-card:last-child {
+    border-right: 0;
 }
 
 .highlight-icon {
     display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
 }
 
 .highlight-card h3 {
@@ -232,17 +227,10 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     align-items: center;
     gap: 22px;
     margin-top: 30px;
-    padding: 28px 30px;
-    border: 1px solid var(--color-border-light);
-    border-radius: var(--radius-card);
-    background: var(--color-bg-card);
-    transition: all 0.3s ease;
-}
-
-.resource-card:hover {
-    border-color: var(--color-border);
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    min-height: 176px;
+    padding: 28px 0;
+    border-top: 1px solid var(--color-border-light);
+    border-bottom: 1px solid var(--color-border-light);
 }
 
 .resource-icon {
@@ -252,8 +240,8 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     flex: 0 0 58px;
     width: 58px;
     height: 58px;
-    border-radius: 16px;
-    background: #f2f7fc;
+    border-radius: 0;
+    background: transparent;
 }
 
 .resource-content h3 {
@@ -275,24 +263,24 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 
 .github-picks {
     display: grid;
-    gap: 12px;
+    gap: 0;
     margin-top: 30px;
+    border-top: 1px solid var(--color-border-light);
 }
 
 .github-pick {
     display: block;
-    padding: 17px 18px;
-    border: 1px solid var(--color-border-light);
-    border-radius: var(--radius-card);
-    background: var(--color-bg-card);
-    transition: all 0.25s ease;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--color-border-light);
+    transition: color 0.2s ease;
 }
 
 .github-pick:hover {
-    border-color: var(--color-border);
-    box-shadow: 0 5px 16px rgba(0,0,0,0.07);
-    transform: translateY(-2px);
     text-decoration: none;
+}
+
+.github-pick:hover .github-pick-name {
+    color: var(--color-link);
 }
 
 .github-pick-header {
@@ -338,6 +326,18 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     .resources-grid {
         grid-template-columns: 1fr;
         gap: 50px;
+    }
+    .highlights-grid {
+        grid-template-columns: 1fr;
+    }
+    .highlight-card {
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border-light);
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .highlight-card:last-child {
+        border-bottom: 0;
     }
 }
 </style>
@@ -391,7 +391,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
 <div class="highlights-section reveal">
     <h2 class="section-title">Research Interests</h2>
     <div class="highlights-grid">
-        <div class="highlight-card hover-lift reveal reveal-delay-1">
+        <div class="highlight-card reveal reveal-delay-1">
             <div class="highlight-icon">
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M12 2v8"/>
@@ -402,7 +402,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
             <h3>Respiratory Diseases</h3>
             <p>Building microfluidic models of influenza and other respiratory virus infections.</p>
         </div>
-        <div class="highlight-card hover-lift reveal reveal-delay-2">
+        <div class="highlight-card reveal reveal-delay-2">
             <div class="highlight-icon">
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                     <rect x="6" y="6" width="12" height="12" rx="2"/>
@@ -413,7 +413,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
             <h3>Organ-on-a-Chip</h3>
             <p>Engineering organ-on-a-chip devices that replicate airway physiology for infection and drug studies.</p>
         </div>
-        <div class="highlight-card hover-lift reveal reveal-delay-3">
+        <div class="highlight-card reveal reveal-delay-3">
             <div class="highlight-icon">
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M9 3h6M9 3v7l-4 9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1l-4-9V3"/>
@@ -431,7 +431,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     <div class="resources-grid">
         <div class="resource-panel">
             <h2 class="section-title">Recommended Reading</h2>
-            <div class="resource-card hover-lift reveal reveal-delay-1">
+            <div class="resource-card reveal reveal-delay-1">
                 <div class="resource-icon" aria-hidden="true">
                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4a90e2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
