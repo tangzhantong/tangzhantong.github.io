@@ -126,6 +126,35 @@ description: "Past weekly GitHub recommendations for scientific writing, biologi
     </header>
 
     <section class="archive-week">
+        <h2 class="archive-date">Week of June 29, 2026</h2>
+        <div class="archive-list">
+            <a class="archive-item" href="https://github.com/satijalab/seurat" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">Seurat</span>
+                    <span class="archive-item-stars">★ 2.8k</span>
+                </div>
+                <p>An R toolkit for single-cell genomics, from QC and clustering to integration and annotation.</p>
+            </a>
+
+            <a class="archive-item" href="https://github.com/scverse/scanpy" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">Scanpy</span>
+                    <span class="archive-item-stars">★ 2.5k</span>
+                </div>
+                <p>A scalable Python framework for single-cell analysis across large transcriptomic datasets.</p>
+            </a>
+
+            <a class="archive-item" href="https://github.com/scverse/scvi-tools" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">scvi-tools</span>
+                    <span class="archive-item-stars">★ 1.7k</span>
+                </div>
+                <p>Deep probabilistic models for single-cell and spatial omics analysis in the scverse ecosystem.</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="archive-week">
         <h2 class="archive-date">Week of June 22, 2026</h2>
         <div class="archive-list">
             <a class="archive-item" href="https://github.com/jupyter-book/jupyter-book" target="_blank" rel="noopener noreferrer">

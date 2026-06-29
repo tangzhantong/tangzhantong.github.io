@@ -452,26 +452,26 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
                 <a class="resource-archive-link" href="/research-picks/">Archive</a>
             </div>
             <div class="github-picks">
-                <a class="github-pick reveal reveal-delay-1" href="https://github.com/jupyter-book/jupyter-book" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-1" href="https://github.com/satijalab/seurat" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">Jupyter Book</span>
-                        <span class="github-pick-stars">★ 4.3k</span>
-                    </div>
-                    <p>Build publication-quality research documents from notebooks and Markdown.</p>
-                </a>
-                <a class="github-pick reveal reveal-delay-2" href="https://github.com/sokrypton/ColabFold" target="_blank" rel="noopener noreferrer">
-                    <div class="github-pick-header">
-                        <span class="github-pick-name">ColabFold</span>
+                        <span class="github-pick-name">Seurat</span>
                         <span class="github-pick-stars">★ 2.8k</span>
                     </div>
-                    <p>An accessible workflow for protein structure prediction with AlphaFold2.</p>
+                    <p>An R toolkit for single-cell genomics, from QC and clustering to integration and annotation.</p>
                 </a>
-                <a class="github-pick reveal reveal-delay-3" href="https://github.com/theislab/single-cell-best-practices" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-2" href="https://github.com/scverse/scanpy" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">Single-Cell Best Practices</span>
-                        <span class="github-pick-stars">★ 1.2k</span>
+                        <span class="github-pick-name">Scanpy</span>
+                        <span class="github-pick-stars">★ 2.5k</span>
                     </div>
-                    <p>A practical, open guide to single-cell and omics data analysis.</p>
+                    <p>A scalable Python framework for single-cell analysis across large transcriptomic datasets.</p>
+                </a>
+                <a class="github-pick reveal reveal-delay-3" href="https://github.com/scverse/scvi-tools" target="_blank" rel="noopener noreferrer">
+                    <div class="github-pick-header">
+                        <span class="github-pick-name">scvi-tools</span>
+                        <span class="github-pick-stars">★ 1.7k</span>
+                    </div>
+                    <p>Deep probabilistic models for single-cell and spatial omics analysis in the scverse ecosystem.</p>
                 </a>
             </div>
         </div>
