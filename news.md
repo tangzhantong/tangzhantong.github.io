@@ -82,7 +82,7 @@ header.site-header {
         <div class="news-list-item">
             <a href="/nanjing-2026/">
                 <span class="news-date">2026-07-10</span>
-                <span class="news-title">我爱的南京</span>
+                <span class="news-title">My Beloved Nanjing</span>
             </a>
         </div>
         <div class="news-list-item">

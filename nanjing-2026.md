@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 我爱的南京
-lang: zh-CN
+title: My Beloved Nanjing
+lang: en
 permalink: /nanjing-2026/
 header_style: white
 ---
@@ -161,11 +161,11 @@ header_style: white
 </style>
 
 <div class="nanjing-page">
-    <h1 class="nanjing-title">我爱的南京</h1>
+    <h1 class="nanjing-title">My Beloved Nanjing</h1>
     <span class="nanjing-date">2026-07-10</span>
 
     <div class="nanjing-content">
-        <p>与南京的相遇有太多的故事，南京的亲切是其他城市给予不到的。希望未来再次与你相遇！</p>
+        <p>There are so many stories in my encounters with Nanjing. The warmth and familiarity of Nanjing are something no other city has given me. I hope to meet you again in the future!</p>
     </div>
 
     <div class="nanjing-carousel" aria-label="南京照片">
