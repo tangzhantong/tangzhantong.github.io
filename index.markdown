@@ -452,26 +452,26 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
                 <a class="resource-archive-link" href="/research-picks/">Archive</a>
             </div>
             <div class="github-picks">
-                <a class="github-pick reveal reveal-delay-1" href="https://github.com/satijalab/seurat" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-1" href="https://github.com/bowang-lab/scGPT" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">Seurat</span>
-                        <span class="github-pick-stars">★ 2.8k</span>
+                        <span class="github-pick-name">scGPT</span>
+                        <span class="github-pick-stars">★ 1.6k</span>
                     </div>
-                    <p>An R toolkit for single-cell genomics, from QC and clustering to integration and annotation.</p>
+                    <p>A foundation-model codebase for single-cell multi-omics, useful for annotation, perturbation, and representation learning.</p>
                 </a>
-                <a class="github-pick reveal reveal-delay-2" href="https://github.com/scverse/scanpy" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-2" href="https://github.com/scverse/squidpy" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">Scanpy</span>
-                        <span class="github-pick-stars">★ 2.5k</span>
+                        <span class="github-pick-name">Squidpy</span>
+                        <span class="github-pick-stars">★ 581</span>
                     </div>
-                    <p>A scalable Python framework for single-cell analysis across large transcriptomic datasets.</p>
+                    <p>Spatial single-cell analysis in Python, covering tissue-neighborhood graphs, spatial statistics, and image features.</p>
                 </a>
-                <a class="github-pick reveal reveal-delay-3" href="https://github.com/scverse/scvi-tools" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-3" href="https://github.com/scverse/cellrank" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">scvi-tools</span>
-                        <span class="github-pick-stars">★ 1.7k</span>
+                        <span class="github-pick-name">CellRank</span>
+                        <span class="github-pick-stars">★ 454</span>
                     </div>
-                    <p>Deep probabilistic models for single-cell and spatial omics analysis in the scverse ecosystem.</p>
+                    <p>Fate mapping for multi-view single-cell data with Markov models, RNA velocity, and driver-gene analysis.</p>
                 </a>
             </div>
         </div>

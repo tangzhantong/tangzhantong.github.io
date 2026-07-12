@@ -126,6 +126,35 @@ description: "Past weekly GitHub recommendations for scientific writing, biologi
     </header>
 
     <section class="archive-week">
+        <h2 class="archive-date">Week of July 6, 2026</h2>
+        <div class="archive-list">
+            <a class="archive-item" href="https://github.com/bowang-lab/scGPT" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">scGPT</span>
+                    <span class="archive-item-stars">★ 1.6k</span>
+                </div>
+                <p>A foundation-model codebase for single-cell multi-omics, useful for annotation, perturbation, and representation learning.</p>
+            </a>
+
+            <a class="archive-item" href="https://github.com/scverse/squidpy" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">Squidpy</span>
+                    <span class="archive-item-stars">★ 581</span>
+                </div>
+                <p>Spatial single-cell analysis in Python, covering tissue-neighborhood graphs, spatial statistics, and image features.</p>
+            </a>
+
+            <a class="archive-item" href="https://github.com/scverse/cellrank" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">CellRank</span>
+                    <span class="archive-item-stars">★ 454</span>
+                </div>
+                <p>Fate mapping for multi-view single-cell data with Markov models, RNA velocity, and driver-gene analysis.</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="archive-week">
         <h2 class="archive-date">Week of June 29, 2026</h2>
         <div class="archive-list">
             <a class="archive-item" href="https://github.com/satijalab/seurat" target="_blank" rel="noopener noreferrer">
