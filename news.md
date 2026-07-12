@@ -80,6 +80,12 @@ header.site-header {
     <div class="news-overlay" style="position:relative;z-index:1;">
         <h1 style="text-align: center; margin-bottom: 40px;">News</h1>
         <div class="news-list-item">
+            <a href="/nanjing-2026/">
+                <span class="news-date">2026-07-10</span>
+                <span class="news-title">我爱的南京</span>
+            </a>
+        </div>
+        <div class="news-list-item">
             <a href="/cny-2026/">
                 <span class="news-date">2026-02-16</span>
                 <span class="news-title">Celebrating Chinese New Year</span>
