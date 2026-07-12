@@ -486,7 +486,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
         <li class="news-item">
             <span class="news-date">2026-07-02</span>
             <span class="news-content">
-                唐展通参加了东南大学的硕士毕业典礼，有关在东南大学的工作正式结束，怀念东南大学，怀念南京。
+                Tang Zhantong attended the master's graduation ceremony at Southeast University, marking the official end of his work there. Remembering Southeast University, and remembering Nanjing.
                 <a href="/assets/images/seu_master_graduation_2026.jpg" target="_blank">
                     <img src="/assets/images/seu_master_graduation_2026.jpg" alt="Tang Zhantong at Southeast University master's graduation ceremony" loading="lazy" style="display:block;max-width:100%;width:520px;margin-top:12px;border:1px solid var(--color-border-light);border-radius:6px;">
                 </a>
