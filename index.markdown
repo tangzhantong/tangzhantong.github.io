@@ -486,7 +486,7 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
         <li class="news-item">
             <span class="news-date">2026-07-15</span>
             <span class="news-content">
-                An interesting read in Cell this week: a garlic compound cuts down mating and egg-laying in fruit flies and mosquitoes, which could point toward a new angle for controlling disease-carrying insects (<a href="https://doi.org/10.1016/j.cell.2026.03.037" target="_blank" style="color:#007398;">DOI: 10.1016/j.cell.2026.03.037</a>).
+                An interesting read in Cell this week: a garlic compound cuts down mating and egg-laying in fruit flies and mosquitoes, which could point toward a new angle for controlling disease-carrying insects (<a href="https://doi.org/10.1016/j.cell.2026.03.037" target="_blank" style="color:#007398 !important;">DOI: 10.1016/j.cell.2026.03.037</a>).
             </span>
         </li>
 
