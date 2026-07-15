@@ -484,6 +484,13 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
     
     <ul class="news-list">
         <li class="news-item">
+            <span class="news-date">2026-07-15</span>
+            <span class="news-content">
+                An interesting read in Cell this week: a garlic compound cuts down mating and egg-laying in fruit flies and mosquitoes, which could point toward a new angle for controlling disease-carrying insects (<a href="https://doi.org/10.1016/j.cell.2026.03.037" target="_blank">DOI: 10.1016/j.cell.2026.03.037</a>).
+            </span>
+        </li>
+
+        <li class="news-item">
             <span class="news-date">2026-07-02</span>
             <span class="news-content">
                 Tang Zhantong attended the master's graduation ceremony at Southeast University, marking the official end of his work there. Remembering Southeast University, and remembering Nanjing.
