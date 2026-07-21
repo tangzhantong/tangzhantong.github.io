@@ -126,6 +126,35 @@ description: "Past weekly GitHub recommendations for scientific writing, biologi
     </header>
 
     <section class="archive-week">
+        <h2 class="archive-date">Week of July 20, 2026</h2>
+        <div class="archive-list">
+            <a class="archive-item" href="https://github.com/ventolab/CellphoneDB" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">CellPhoneDB</span>
+                    <span class="archive-item-stars">★ 478</span>
+                </div>
+                <p>A curated ligand-receptor database with tools for inferring cell-cell communication from single-cell expression data.</p>
+            </a>
+
+            <a class="archive-item" href="https://github.com/saezlab/liana-py" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">LIANA+</span>
+                    <span class="archive-item-stars">★ 305</span>
+                </div>
+                <p>A framework for running and comparing ligand-receptor inference methods across single-cell, spatial, and multi-omics data.</p>
+            </a>
+
+            <a class="archive-item" href="https://github.com/scverse/scirpy" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">Scirpy</span>
+                    <span class="archive-item-stars">★ 262</span>
+                </div>
+                <p>A Scanpy extension for single-cell TCR and BCR repertoire analysis, covering clonotype definition and clonal expansion.</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="archive-week">
         <h2 class="archive-date">Week of July 6, 2026</h2>
         <div class="archive-list">
             <a class="archive-item" href="https://github.com/bowang-lab/scGPT" target="_blank" rel="noopener noreferrer">

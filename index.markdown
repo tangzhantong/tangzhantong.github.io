@@ -452,26 +452,26 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
                 <a class="resource-archive-link" href="/research-picks/">Archive</a>
             </div>
             <div class="github-picks">
-                <a class="github-pick reveal reveal-delay-1" href="https://github.com/bowang-lab/scGPT" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-1" href="https://github.com/ventolab/CellphoneDB" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">scGPT</span>
-                        <span class="github-pick-stars">★ 1.6k</span>
+                        <span class="github-pick-name">CellPhoneDB</span>
+                        <span class="github-pick-stars">★ 478</span>
                     </div>
-                    <p>A foundation-model codebase for single-cell multi-omics, useful for annotation, perturbation, and representation learning.</p>
+                    <p>A curated ligand-receptor database with tools for inferring cell-cell communication from single-cell expression data.</p>
                 </a>
-                <a class="github-pick reveal reveal-delay-2" href="https://github.com/scverse/squidpy" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-2" href="https://github.com/saezlab/liana-py" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">Squidpy</span>
-                        <span class="github-pick-stars">★ 581</span>
+                        <span class="github-pick-name">LIANA+</span>
+                        <span class="github-pick-stars">★ 305</span>
                     </div>
-                    <p>Spatial single-cell analysis in Python, covering tissue-neighborhood graphs, spatial statistics, and image features.</p>
+                    <p>A framework for running and comparing ligand-receptor inference methods across single-cell, spatial, and multi-omics data.</p>
                 </a>
-                <a class="github-pick reveal reveal-delay-3" href="https://github.com/scverse/cellrank" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-3" href="https://github.com/scverse/scirpy" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">CellRank</span>
-                        <span class="github-pick-stars">★ 454</span>
+                        <span class="github-pick-name">Scirpy</span>
+                        <span class="github-pick-stars">★ 262</span>
                     </div>
-                    <p>Fate mapping for multi-view single-cell data with Markov models, RNA velocity, and driver-gene analysis.</p>
+                    <p>A Scanpy extension for single-cell TCR and BCR repertoire analysis, covering clonotype definition and clonal expansion.</p>
                 </a>
             </div>
         </div>
