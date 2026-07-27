@@ -126,6 +126,35 @@ description: "Past weekly GitHub recommendations for scientific writing, biologi
     </header>
 
     <section class="archive-week">
+        <h2 class="archive-date">Week of July 27, 2026</h2>
+        <div class="archive-list">
+            <a class="archive-item" href="https://github.com/scverse/PyDESeq2" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">PyDESeq2</span>
+                    <span class="archive-item-stars">★ 759</span>
+                </div>
+                <p>A Python reimplementation of DESeq2 for differential expression analysis on bulk RNA-seq count data.</p>
+            </a>
+
+            <a class="archive-item" href="https://github.com/zqfang/GSEApy" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">GSEApy</span>
+                    <span class="archive-item-stars">★ 706</span>
+                </div>
+                <p>Gene set enrichment and over-representation analysis in Python, with support for GSEA, Enrichr, and ssGSEA.</p>
+            </a>
+
+            <a class="archive-item" href="https://github.com/scverse/decoupler" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">decoupler</span>
+                    <span class="archive-item-stars">★ 286</span>
+                </div>
+                <p>A toolkit for inferring pathway and transcription-factor activities from omics data using curated prior knowledge.</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="archive-week">
         <h2 class="archive-date">Week of July 20, 2026</h2>
         <div class="archive-list">
             <a class="archive-item" href="https://github.com/ventolab/CellphoneDB" target="_blank" rel="noopener noreferrer">

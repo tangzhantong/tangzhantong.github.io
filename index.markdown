@@ -452,26 +452,26 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
                 <a class="resource-archive-link" href="/research-picks/">Archive</a>
             </div>
             <div class="github-picks">
-                <a class="github-pick reveal reveal-delay-1" href="https://github.com/ventolab/CellphoneDB" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-1" href="https://github.com/scverse/PyDESeq2" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">CellPhoneDB</span>
-                        <span class="github-pick-stars">★ 478</span>
+                        <span class="github-pick-name">PyDESeq2</span>
+                        <span class="github-pick-stars">★ 759</span>
                     </div>
-                    <p>A curated ligand-receptor database with tools for inferring cell-cell communication from single-cell expression data.</p>
+                    <p>A Python reimplementation of DESeq2 for differential expression analysis on bulk RNA-seq count data.</p>
                 </a>
-                <a class="github-pick reveal reveal-delay-2" href="https://github.com/saezlab/liana-py" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-2" href="https://github.com/zqfang/GSEApy" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">LIANA+</span>
-                        <span class="github-pick-stars">★ 305</span>
+                        <span class="github-pick-name">GSEApy</span>
+                        <span class="github-pick-stars">★ 706</span>
                     </div>
-                    <p>A framework for running and comparing ligand-receptor inference methods across single-cell, spatial, and multi-omics data.</p>
+                    <p>Gene set enrichment and over-representation analysis in Python, with support for GSEA, Enrichr, and ssGSEA.</p>
                 </a>
-                <a class="github-pick reveal reveal-delay-3" href="https://github.com/scverse/scirpy" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-3" href="https://github.com/scverse/decoupler" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">Scirpy</span>
-                        <span class="github-pick-stars">★ 262</span>
+                        <span class="github-pick-name">decoupler</span>
+                        <span class="github-pick-stars">★ 286</span>
                     </div>
-                    <p>A Scanpy extension for single-cell TCR and BCR repertoire analysis, covering clonotype definition and clonal expansion.</p>
+                    <p>A toolkit for inferring pathway and transcription-factor activities from omics data using curated prior knowledge.</p>
                 </a>
             </div>
         </div>
