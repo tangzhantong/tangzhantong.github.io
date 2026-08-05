@@ -126,6 +126,35 @@ description: "Past weekly GitHub recommendations for scientific writing, biologi
     </header>
 
     <section class="archive-week">
+        <h2 class="archive-date">Week of August 3, 2026</h2>
+        <div class="archive-list">
+            <a class="archive-item" href="https://github.com/scverse/spatialdata" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">SpatialData</span>
+                    <span class="archive-item-stars">★ 383</span>
+                </div>
+                <p>An open data framework that keeps images, cell shapes, and expression tables from spatial omics aligned in one object.</p>
+            </a>
+
+            <a class="archive-item" href="https://github.com/BayraktarLab/cell2location" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">cell2location</span>
+                    <span class="archive-item-stars">★ 453</span>
+                </div>
+                <p>A Bayesian model that maps cell types from a single-cell reference onto spatial transcriptomics spots and estimates their abundance.</p>
+            </a>
+
+            <a class="archive-item" href="https://github.com/Teichlab/celltypist" target="_blank" rel="noopener noreferrer">
+                <div class="archive-item-header">
+                    <span class="archive-item-name">CellTypist</span>
+                    <span class="archive-item-stars">★ 500</span>
+                </div>
+                <p>Semi-automatic cell type annotation for scRNA-seq, using logistic regression models trained on curated reference atlases.</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="archive-week">
         <h2 class="archive-date">Week of July 27, 2026</h2>
         <div class="archive-list">
             <a class="archive-item" href="https://github.com/scverse/PyDESeq2" target="_blank" rel="noopener noreferrer">

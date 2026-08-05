@@ -452,26 +452,26 @@ description: "Tang Zhantong's personal website - Committed to reducing dependenc
                 <a class="resource-archive-link" href="/research-picks/">Archive</a>
             </div>
             <div class="github-picks">
-                <a class="github-pick reveal reveal-delay-1" href="https://github.com/scverse/PyDESeq2" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-1" href="https://github.com/scverse/spatialdata" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">PyDESeq2</span>
-                        <span class="github-pick-stars">★ 759</span>
+                        <span class="github-pick-name">SpatialData</span>
+                        <span class="github-pick-stars">★ 383</span>
                     </div>
-                    <p>A Python reimplementation of DESeq2 for differential expression analysis on bulk RNA-seq count data.</p>
+                    <p>An open data framework that keeps images, cell shapes, and expression tables from spatial omics aligned in one object.</p>
                 </a>
-                <a class="github-pick reveal reveal-delay-2" href="https://github.com/zqfang/GSEApy" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-2" href="https://github.com/BayraktarLab/cell2location" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">GSEApy</span>
-                        <span class="github-pick-stars">★ 706</span>
+                        <span class="github-pick-name">cell2location</span>
+                        <span class="github-pick-stars">★ 453</span>
                     </div>
-                    <p>Gene set enrichment and over-representation analysis in Python, with support for GSEA, Enrichr, and ssGSEA.</p>
+                    <p>A Bayesian model that maps cell types from a single-cell reference onto spatial transcriptomics spots and estimates their abundance.</p>
                 </a>
-                <a class="github-pick reveal reveal-delay-3" href="https://github.com/scverse/decoupler" target="_blank" rel="noopener noreferrer">
+                <a class="github-pick reveal reveal-delay-3" href="https://github.com/Teichlab/celltypist" target="_blank" rel="noopener noreferrer">
                     <div class="github-pick-header">
-                        <span class="github-pick-name">decoupler</span>
-                        <span class="github-pick-stars">★ 286</span>
+                        <span class="github-pick-name">CellTypist</span>
+                        <span class="github-pick-stars">★ 500</span>
                     </div>
-                    <p>A toolkit for inferring pathway and transcription-factor activities from omics data using curated prior knowledge.</p>
+                    <p>Semi-automatic cell type annotation for scRNA-seq, using logistic regression models trained on curated reference atlases.</p>
                 </a>
             </div>
         </div>
