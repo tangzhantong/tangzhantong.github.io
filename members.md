@@ -145,7 +145,7 @@ description: "Meet the members of Tang Zhantong's lab family - researchers, engi
       <div class="member-overlay">
         <div class="overlay-info">
           <strong>Research:</strong> Biology, Biomedical Engineering<br>
-          <strong>School:</strong> Southeast University<br>
+          <strong>School:</strong> Sun Yat-sen University · Guangzhou Laboratory<br>
           <strong>Email:</strong> zhantongtang@gmail.com<br>
           <strong>Hobby:</strong> Cats, Cooking (Definitely NOT work!)
         </div>
