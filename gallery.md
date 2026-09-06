@@ -25,6 +25,22 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
 <div class="gallery-container reveal">
 
   <div class="gallery-card">
+    <img src="/assets/images/sysu_shenzhen_main_building_2026.jpg" class="gallery-img" alt="The red-brick main building of Sun Yat-sen University's Shenzhen campus behind the stone sign reading 中山大學 / Sun Yat-sen University" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">Sun Yat-sen University, Shenzhen 🏛️</h3>
+      <p class="gallery-desc">Sep 4, 2026 | My parents came with me to the Shenzhen campus of Sun Yat-sen University, where I will spend the next six months on doctoral coursework.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/sysu_shenzhen_campus_2026.jpg" class="gallery-img" alt="Tiered red-brick building with a dark conical roof on the Shenzhen campus of Sun Yat-sen University, with wooded hills behind" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">Around the New Campus 🌳</h3>
+      <p class="gallery-desc">Sep 4, 2026 | Red brick and arched windows against the hills — a first walk around the Shenzhen campus.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/hongkong_victoria_harbour_2026.jpg" class="gallery-img" alt="Victoria Harbour at night, with the lit skyline of Hong Kong Island reflected in the water" loading="lazy">
     <div class="gallery-overlay">
       <h3 class="gallery-title">Victoria Harbour at Night 🌃</h3>
