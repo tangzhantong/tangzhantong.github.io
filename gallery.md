@@ -25,6 +25,22 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
 <div class="gallery-container reveal">
 
   <div class="gallery-card">
+    <img src="/assets/images/hongkong_victoria_harbour_2026.jpg" class="gallery-img" alt="Victoria Harbour at night, with the lit skyline of Hong Kong Island reflected in the water" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">Victoria Harbour at Night 🌃</h3>
+      <p class="gallery-desc">Sep 2, 2026 | In Hong Kong with my parents. We walked along the Tsim Sha Tsui waterfront after dark and watched the skyline across the harbour — the city at its busiest.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/hongkong_mongkok_2026.jpg" class="gallery-img" alt="Tang Zhantong standing beside the red tiled pillar marking Mong Kok station on the Hong Kong MTR" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">Mong Kok Station 🚇</h3>
+      <p class="gallery-desc">Sep 2, 2026 | The red tiled pillars of Mong Kok station. We took the MTR everywhere on this trip.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/parents_master_graduation_2026_v2.jpg" class="gallery-img" alt="Tang Zhantong in master's graduation gown and cap, standing with his parents in front of the gymnasium at Southeast University's Sipailou campus" loading="lazy">
     <div class="gallery-overlay">
       <h3 class="gallery-title">Graduation with My Parents 🎓</h3>
