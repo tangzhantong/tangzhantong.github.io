@@ -25,6 +25,22 @@ description: "A photo gallery capturing moments in science and life by Tang Zhan
 <div class="gallery-container reveal">
 
   <div class="gallery-card">
+    <img src="/assets/images/shanghai_bund_haoyu_2026.jpg" class="gallery-img" alt="Tang Zhantong and Haoyu taking a selfie on the Bund in Shanghai, with the Lujiazui towers half hidden in fog across the Huangpu River" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">A Foggy Day on the Bund 🌫️</h3>
+      <p class="gallery-desc">Oct 2026 | Haoyu and I went to Shanghai over the National Day holiday. Too bad about the weather: the sky was overcast and the Bund was covered in fog.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/perler_beads_2026.jpg" class="gallery-img" alt="A rainbow-petalled smiling flower made of Perler beads on a pegboard, next to a finished white bead piece, on a green gingham tablecloth" loading="lazy">
+    <div class="gallery-overlay">
+      <h3 class="gallery-title">Hooked on Perler Beads 🎨</h3>
+      <p class="gallery-desc">Oct 2026 | Perler beads (拼豆) are a new craze among young people here. I tried it and now I can't stop.</p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/sysu_shenzhen_main_building_2026.jpg" class="gallery-img" alt="The red-brick main building of Sun Yat-sen University's Shenzhen campus behind the stone sign reading 中山大學 / Sun Yat-sen University" loading="lazy">
     <div class="gallery-overlay">
       <h3 class="gallery-title">Sun Yat-sen University, Shenzhen 🏛️</h3>
